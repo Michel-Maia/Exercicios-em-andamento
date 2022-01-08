@@ -1,0 +1,4 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\POO-MENTORIA\obj\Debug\netcoreapp3.1\POO-MENTORIA.csprojAssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\POO-MENTORIA\obj\Debug\netcoreapp3.1\POO-MENTORIA.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\POO-MENTORIA\obj\Debug\netcoreapp3.1\POO-MENTORIA.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\POO-MENTORIA\obj\Debug\netcoreapp3.1\POO-MENTORIA.csproj.CoreCompileInputs.cache

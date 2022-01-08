@@ -1,0 +1,17 @@
+início {
+    real: nota1;
+    real: nota2;
+    real: nota3;
+    
+    leia("nota 1", nota1);
+    leia("nota 2", nota2);
+    leia("nota 3", nota3);
+    
+    real: media;
+    media = (nota1 + nota2 + nota3) /3;
+   
+  
+ 
+ escreva (" A media é " + media); 
+    
+}

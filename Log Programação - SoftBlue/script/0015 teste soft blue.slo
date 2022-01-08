@@ -1,0 +1,16 @@
+
+tipo conta {
+    inteiro: numero;
+    caractere: titular;
+    real: saldo;
+    
+}
+        início {
+            conta: c;
+            c.numero = 123;
+            c.titular = "Lilian Maia";
+            c.saldo= 10000;
+            
+            c.saldo = c.saldo + 200;
+     escreva (c);
+}

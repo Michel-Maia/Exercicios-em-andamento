@@ -1,0 +1,7 @@
+início {
+    real: r;
+    
+    r = rad (3.0);
+    escreva (r);
+    
+}

@@ -1,0 +1,17 @@
+início {
+ caractere: texto;
+ 
+ inteiro: idade;
+ real: altura;
+ 
+ 
+ 
+ 
+ texto = "Michel";
+ idade = 30;
+ altura= 1.8;
+ 
+ escreva (texto);
+     escreva(idade); 
+     escreva (altura);
+}

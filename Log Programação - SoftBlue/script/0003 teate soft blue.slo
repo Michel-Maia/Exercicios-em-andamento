@@ -1,0 +1,14 @@
+início {
+    real: fv;
+    real: pv;
+    real: i;
+    real: n;
+    
+    leia ("valor atual", pv);
+    leia ("taxa", i);
+    leia ("tempo", n);
+    
+    fv = pv * pot(1 + i / 100, n);
+    
+    escreva ("FV = " +fv);
+}

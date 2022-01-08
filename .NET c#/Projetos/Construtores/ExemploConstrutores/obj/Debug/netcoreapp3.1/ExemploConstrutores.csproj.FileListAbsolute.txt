@@ -1,0 +1,13 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\bin\Debug\netcoreapp3.1\ExemploConstrutores.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\bin\Debug\netcoreapp3.1\ExemploConstrutores.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\bin\Debug\netcoreapp3.1\ExemploConstrutores.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\bin\Debug\netcoreapp3.1\ExemploConstrutores.runtimeconfig.dev.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\bin\Debug\netcoreapp3.1\ExemploConstrutores.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\bin\Debug\netcoreapp3.1\ExemploConstrutores.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\obj\Debug\netcoreapp3.1\ExemploConstrutores.csprojAssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\obj\Debug\netcoreapp3.1\ExemploConstrutores.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\obj\Debug\netcoreapp3.1\ExemploConstrutores.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\obj\Debug\netcoreapp3.1\ExemploConstrutores.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\obj\Debug\netcoreapp3.1\ExemploConstrutores.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\obj\Debug\netcoreapp3.1\ExemploConstrutores.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\Construtores\ExemploConstrutores\obj\Debug\netcoreapp3.1\ExemploConstrutores.genruntimeconfig.cache

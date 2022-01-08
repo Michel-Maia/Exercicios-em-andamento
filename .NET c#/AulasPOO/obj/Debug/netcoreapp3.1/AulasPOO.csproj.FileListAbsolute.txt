@@ -1,0 +1,13 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\obj\Debug\netcoreapp3.1\AulasPOO.csprojAssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\obj\Debug\netcoreapp3.1\AulasPOO.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\obj\Debug\netcoreapp3.1\AulasPOO.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\obj\Debug\netcoreapp3.1\AulasPOO.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\bin\Debug\netcoreapp3.1\AulasPOO.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\bin\Debug\netcoreapp3.1\AulasPOO.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\bin\Debug\netcoreapp3.1\AulasPOO.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\bin\Debug\netcoreapp3.1\AulasPOO.runtimeconfig.dev.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\bin\Debug\netcoreapp3.1\AulasPOO.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\bin\Debug\netcoreapp3.1\AulasPOO.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\obj\Debug\netcoreapp3.1\AulasPOO.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\obj\Debug\netcoreapp3.1\AulasPOO.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\AulasPOO\obj\Debug\netcoreapp3.1\AulasPOO.genruntimeconfig.cache

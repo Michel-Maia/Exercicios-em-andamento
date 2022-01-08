@@ -1,0 +1,114 @@
+tipo tabuleiro {
+    caractere: m[3][3];
+}
+ tipo jogador {
+     caractere: nome;
+     caractere: simbolo;
+}     
+
+tipo jogada {
+    inteiro: i;
+    inteiro: j;
+}
+    
+início {
+    tabuleiro: t;
+    jogador: jogadores[2];
+    
+    inteiro: njog;
+    njog = 0;
+    
+     zerar (t);
+      criar_jogadores(jogadores);
+      
+      imprimir (t);    
+      
+      enquanto (não tabuleiro_cheio(t) e não jogo_acabo(t))  {
+          jogada: jogada; 
+          
+      jogada= aguardar_jogada(jogadores [njog]);
+     se (realizar_jogada(t, jogada, jogadores[njog])){
+      imprimir (t);
+       njog = (njog + 1)% 2;
+   } senão {
+       escreva ("Jogada Inválida. Tente novamente");
+   }
+ }    
+    
+}
+
+função tabuleiro_cheio (tabuleiro: t) -> lógico { 
+inteiro: i;
+inteiro: j;
+
+para i de 0 até 2 passo 1 {
+    para j de 0 até 2 passo 1 {
+        se (t.m [i] [j] == " ") {
+            retorne falso; 
+        }
+    }
+}
+
+retorne verdadeiro;
+}
+
+função jogo_acabou (tabuleiro: t) -> lógico{
+// voltar aqui..
+    retorne falso;
+}
+
+função zerar (tabuleiro: t) {
+    inteiro: i;
+    inteiro: j;
+    
+    para i de 0 até 2 passo 1 {
+        para j de 0 até 2 passo 1 {
+            t.m[i] [j] = " ";
+            
+        }
+        
+    }
+    
+}
+
+função imprimir (tabuleiro: t) {
+    inteiro: i;
+    
+    para i de 0 até 2 passo 1 {
+        escreval (t.m[i][0]);
+        escreval (" | ");
+        escreval (t.m [i][1]);
+        escreval (" | ");
+        escreva (t.m[i][2]);
+        
+        se (i < 2) {
+            escreva ("_______");
+        }
+    }
+    escreva ();
+}
+
+função criar_jogadores (jogador: jogadores[2]) {
+   jogadores [0] .nome = "A";
+   jogadores [0] .simbolo = "X";
+   
+   jogadores [1] .nome = "B";
+   jogadores [1] .simbolo = "O";
+  }
+  função aguardar_jogada(jogador: jogador) -> jogada{
+  jogada: jogada;
+  leia("Jogador " + jogador.nome + "=> Linha", jogada.i); 
+  leia("Jogador " + jogador.nome + "=> Coluna", jogada.j);  
+  retorne jogada;
+}
+
+função realizar_jogada(tabuleiro: t, jogada: jogada,jogador: jogador) {
+se (t.m [jogada.i] [jogada.j] <> " " ) {
+    retorne falso;
+}
+
+t.m [jogada.i] [jogada.j] = jogador.simbolo;
+retorne verdadeiro;
+}    
+   
+ 

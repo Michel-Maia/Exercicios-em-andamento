@@ -1,0 +1,13 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.runtimeconfig.dev.json
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\bin\Debug\netcoreapp3.1\Colecoes.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.csprojAssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\Aulas geral - Em andamento\.NET c#\Projetos\ExemploColecoes\Colecoes\obj\Debug\netcoreapp3.1\Colecoes.genruntimeconfig.cache
