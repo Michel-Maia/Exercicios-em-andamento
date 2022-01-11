@@ -94,6 +94,25 @@ mongodb cloud *ferramenta paga
  robomongo.org
 
 
+----
+
+schema desing * trabalhar com  relacionamento embedding
+documento autocontido 
+
+pros * mais aconselhado, atualiza o registro em uma unica operação, consulta informações em uma unica query
+
+contra * limite de 16MB por documento
+
+referencia
+pros* documentos pequenos, não duplica informações, usado quando os dados não são acessados em todas as consultas
+
+contra* duas ou mais querie ou utilização do $lookup
+
+bson * serialização codificada em binário de documentos semelhantes ao JSON
+contém extensões que permitem a representação de tipos de dados que não fazem parte da especificação JSON, por exemplo BSON tem um tipo Date, ObjectID
+
+
+
 
 
 
