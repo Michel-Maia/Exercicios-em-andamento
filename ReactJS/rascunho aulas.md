@@ -86,7 +86,14 @@ Eventos em React são nomeados usando camelCase ao invés de letras minúsculas.
 Com o JSX da para passar uma função como manipulador de eventos ao invés de um texto.
 
 
+---
+** Aplicações para internet com ReactJS
 
+Inline - maneira mais básica de estilizar componentes
+
+Classes - 
+
+CSS in JS - 
 
 
 
