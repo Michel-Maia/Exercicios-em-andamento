@@ -86,14 +86,87 @@ Eventos em React são nomeados usando camelCase ao invés de letras minúsculas.
 Com o JSX da para passar uma função como manipulador de eventos ao invés de um texto.
 
 
----
-** Aplicações para internet com ReactJS
+# Aplicações para internet com ReactJS
 
 Inline - maneira mais básica de estilizar componentes
 
-Classes - 
+Classes - usa className para manter a compatibilidade (contra mais difícil de manter, pouca flexibilidade, conflito com nome)
 
 CSS in JS - 
+comando npm install --save style-components
+
+# Stateful 
+Usa estados, possui gerenciamento de estados, contruído usando classes
+
+ciclo de vida - initilization / mounting / updation / unmounting
+
+
+
+# Stateless
+Não usa estados
+
+Não possui gerenciamento de estados no componente.
+
+Construídos usando funções em JS 
+
+
+# Formulários 
+
+Mantém um estado interno
+
+--
+Componente controlado
+Tanto select, input ou textarea aceitam um atributo value
+
+pode nudar esse valor usando o atributo onChange
+
+*componente não controlado
+a tag é read-only
+
+## Biblioteca
+Formik
+Redux-forms
+
+
+# Flux 
+Criação do Facebook 
+padrão de projeto para tráfego de dados de maneira unidirecional 
+
+Action - é como um telégrafo: ele formata a msg a ser enviada
+
+Dispatcher - é como um telefonista; ele sabe todos os callbacks para diferentes Stores
+
+Store - é como se fosse um gerente super controlador; ele guarda a informação e todas as alterações têm que ser feitas por ele mesmo, mais ninguém. 
+
+View - é como um gerente intermediário (middleware) que recebe as notificações da store e passa os dados para as visões abaixo dela. 
+
+
+
+# Redux 
+Redux é mais popular, foi criado em 2015 , ele implementa o flux
+
+
+# instalando o Redux
+
+npm install react-redux
+npm install --save-dev redux-devtools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
