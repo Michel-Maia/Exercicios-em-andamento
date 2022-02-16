@@ -7,11 +7,10 @@
  .NET
  Bootstrap 
  JQuery
- Vue.js
  Node.js 
  TypeScript
  ReactJS
  SQL
  MySQL
- Kotlin
+
  

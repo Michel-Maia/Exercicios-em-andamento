@@ -1,0 +1,15 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\bin\Debug\net6.0\aula01.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\bin\Debug\net6.0\aula01.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\bin\Debug\net6.0\aula01.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\bin\Debug\net6.0\aula01.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\bin\Debug\net6.0\ref\aula01.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\bin\Debug\net6.0\aula01.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\aula01.csproj.AssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\aula01.GeneratedMSBuildEditorConfig.editorconfig
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\aula01.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\aula01.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\aula01.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\aula01.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\ref\aula01.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\aula01.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\aula01\obj\Debug\net6.0\aula01.genruntimeconfig.cache
