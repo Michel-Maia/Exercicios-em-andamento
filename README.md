@@ -1,16 +1,6 @@
-# Em andamento - Exercicios desenvolvidos durante as aulas 
+# Em andamento 
 
- HTML5 
- CSS3
- Javascript 
- C#
- .NET
- Bootstrap 
- JQuery
- Node.js 
- TypeScript
- ReactJS
- SQL
- MySQL
+
+Exercicios desenvolvidos durante as aulas 
 
  
