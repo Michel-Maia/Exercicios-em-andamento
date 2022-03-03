@@ -18,7 +18,7 @@ namespace Stopwatch
             Console.WriteLine("0 = Sair");
             Console.WriteLine("Quanto tempo deseja contar?");
 
-            string data = Console.ReadLine();
+            string data = Console.ReadLine().ToLower();
 
         }
 
