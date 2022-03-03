@@ -1,0 +1,15 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\bin\Debug\net6.0\Stopwatch.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\bin\Debug\net6.0\Stopwatch.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\bin\Debug\net6.0\Stopwatch.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\bin\Debug\net6.0\Stopwatch.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\bin\Debug\net6.0\ref\Stopwatch.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\bin\Debug\net6.0\Stopwatch.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\Stopwatch.csproj.AssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\Stopwatch.GeneratedMSBuildEditorConfig.editorconfig
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\Stopwatch.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\Stopwatch.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\Stopwatch.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\Stopwatch.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\ref\Stopwatch.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\Stopwatch.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Stopwatch\obj\Debug\net6.0\Stopwatch.genruntimeconfig.cache
