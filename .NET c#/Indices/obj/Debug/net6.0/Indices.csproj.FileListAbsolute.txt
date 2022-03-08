@@ -1,0 +1,15 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\bin\Debug\net6.0\Indices.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\bin\Debug\net6.0\Indices.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\bin\Debug\net6.0\Indices.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\bin\Debug\net6.0\Indices.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\bin\Debug\net6.0\ref\Indices.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\bin\Debug\net6.0\Indices.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\Indices.csproj.AssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\Indices.GeneratedMSBuildEditorConfig.editorconfig
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\Indices.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\Indices.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\Indices.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\Indices.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\ref\Indices.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\Indices.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\Indices\obj\Debug\net6.0\Indices.genruntimeconfig.cache

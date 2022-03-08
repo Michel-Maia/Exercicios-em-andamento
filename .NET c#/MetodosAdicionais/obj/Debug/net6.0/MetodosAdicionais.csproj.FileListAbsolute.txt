@@ -1,0 +1,15 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\bin\Debug\net6.0\MetodosAdicionais.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\bin\Debug\net6.0\MetodosAdicionais.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\bin\Debug\net6.0\MetodosAdicionais.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\bin\Debug\net6.0\MetodosAdicionais.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\bin\Debug\net6.0\ref\MetodosAdicionais.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\bin\Debug\net6.0\MetodosAdicionais.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\MetodosAdicionais.csproj.AssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\MetodosAdicionais.GeneratedMSBuildEditorConfig.editorconfig
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\MetodosAdicionais.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\MetodosAdicionais.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\MetodosAdicionais.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\MetodosAdicionais.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\ref\MetodosAdicionais.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\MetodosAdicionais.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\MetodosAdicionais\obj\Debug\net6.0\MetodosAdicionais.genruntimeconfig.cache
