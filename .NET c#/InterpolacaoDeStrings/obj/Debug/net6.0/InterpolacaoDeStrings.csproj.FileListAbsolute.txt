@@ -1,0 +1,15 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\bin\Debug\net6.0\InterpolacaoDeStrings.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\bin\Debug\net6.0\InterpolacaoDeStrings.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\bin\Debug\net6.0\InterpolacaoDeStrings.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\bin\Debug\net6.0\InterpolacaoDeStrings.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\bin\Debug\net6.0\ref\InterpolacaoDeStrings.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\bin\Debug\net6.0\InterpolacaoDeStrings.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\InterpolacaoDeStrings.csproj.AssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\InterpolacaoDeStrings.GeneratedMSBuildEditorConfig.editorconfig
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\InterpolacaoDeStrings.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\InterpolacaoDeStrings.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\InterpolacaoDeStrings.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\InterpolacaoDeStrings.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\ref\InterpolacaoDeStrings.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\InterpolacaoDeStrings.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\InterpolacaoDeStrings\obj\Debug\net6.0\InterpolacaoDeStrings.genruntimeconfig.cache

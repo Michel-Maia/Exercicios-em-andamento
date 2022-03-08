@@ -1,0 +1,15 @@
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\bin\Debug\net6.0\ComparacaoDeStrings.exe
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\bin\Debug\net6.0\ComparacaoDeStrings.deps.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\bin\Debug\net6.0\ComparacaoDeStrings.runtimeconfig.json
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\bin\Debug\net6.0\ComparacaoDeStrings.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\bin\Debug\net6.0\ref\ComparacaoDeStrings.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\bin\Debug\net6.0\ComparacaoDeStrings.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ComparacaoDeStrings.csproj.AssemblyReference.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ComparacaoDeStrings.GeneratedMSBuildEditorConfig.editorconfig
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ComparacaoDeStrings.AssemblyInfoInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ComparacaoDeStrings.AssemblyInfo.cs
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ComparacaoDeStrings.csproj.CoreCompileInputs.cache
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ComparacaoDeStrings.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ref\ComparacaoDeStrings.dll
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ComparacaoDeStrings.pdb
+D:\.01.CuRsoS PrOgRaMaÇãO\02. Github - Projetos\Exercicios-desenvolvidos-durante-as-aulas-\.NET c#\ComparacaoDeStrings\obj\Debug\net6.0\ComparacaoDeStrings.genruntimeconfig.cache
