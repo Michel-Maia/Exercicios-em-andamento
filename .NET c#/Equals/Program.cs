@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace MyApp
+{
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            var texto = "Este texto é um teste";
+            Console.WriteLine(texto.Equals("Este"));
+            Console.WriteLine(texto.Equals("este"));
+        }
+    }
+}
+
+
