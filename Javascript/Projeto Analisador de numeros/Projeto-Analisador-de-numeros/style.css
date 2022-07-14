@@ -1,0 +1,33 @@
+body {
+    background: rgb(26, 6, 113);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+select#flista {
+    width: 150px;
+}
+
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+footer {
+    color: rgb(193, 191, 198);
+    text-align: center;
+    font-style: italic;
+}
