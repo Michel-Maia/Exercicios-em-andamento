@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <!--tag table quando há necessidade de exibir informações tabuladas ex planilha excel -->
+    <!-- tag table indica o inicio e fim da tabela-->
+
+
+    <!-- não é uma boa prática usar width e border na tag table, deve usar o CSS para realizar o estilo, foi usado nesse exemplo apenas para visualização-->
+    <table width="500" border="1">
+        <!--tag tr inicio e fim da linha-->
+        <tr>
+            <!--tag th cabeçalho da tabela-->
+            <th>Título 1</th>
+            <th>Título 2</th>
+            <th>Título 3</th>
+            <th>Título 4</th>
+            <th>Título 5</th>
+        </tr>
+        <tr>
+            <!--tag td célula da tabela-->
+            <td>Célula 1</td>
+            <td>Célula 2</td>
+            <!--colspan mescla célula do lado-->
+            <td colspan="2">Célula 3</td>
+            <td rowspan="2">Célula 4</td>
+            <!--rowspan mescla célula de baixo-->
+        </tr>
+        <tr>
+            <td>Célula 1</td>
+            <td>Célula 2</td>
+            <td>Célula 3</td>
+            <td>Célula 4</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

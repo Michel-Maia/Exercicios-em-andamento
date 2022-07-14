@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 2</title>
+</head>
+<body>
+    <form id="formulario" action="form.html" method="post">
+        <label for="nome">Nome Completo: </label>
+        <input type="text" id="nome" required> <br> 
+        <!--atributo required campo obrigatório, não envia sem preencher a caixa-->
+
+        <label for="idade">Idade: </label>
+        <input type="number" id="idade"> <br>
+        <!-- type number não permite que use outra coisa que não número-->
+
+        <!-- type email não permite que use outra coisa que não pareça email-->
+        <label for="emailEnd">E-mail: </label>
+        <input type="email" id="emailEnd"> <br>
+
+        <label for="newsletter">
+            <input type="radio" name="newsletter" value="Sim"> Sim
+            <input type="radio" name="newsletter" value="Não"> Não <br>
+
+            <input type="submit" value="Enviar">
+        </label>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <!--atributos do form id , method é usado para o metodo de envio ideal usar o POST (informações fechadas) , atributo action página dinamica de tratamento desse formulario  -->
+    <form id="formulario" method="POST" action="processaForm.php">
+
+<!--tag label é usada para determinar o rotulo da informação, 
+    com o atributo for da qual coloco o identificador-->       
+        <label for="nome">Nome Completo</label>
+
+        <!-- tag input , atributo type pode ser usado com text, password (caixa de senha), checkbox -->
+        <input type="text" id="nome" maxlength="70">
+                                    <!--atributo maxlength tamanho máximo-->
+
+    </form>
+
+    <form id="formulario2" method="POST" action="processaForm.php">
+            <label for="nome">Nome Completo: Exemplo 2</label>
+                <input type="text" id="nome" name="nome"
+                value="Exemplo nome" disabled><!--se usar o atributo disabled não consigo alterar o valor dentro da caixa-->  
+                <!--tag value permite deixar um valor definido-->  
+        
+    </form>
+</body>
+</html>
