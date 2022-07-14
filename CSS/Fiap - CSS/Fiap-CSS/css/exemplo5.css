@@ -1,0 +1,14 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* seletor de elementos descendentes */
+div p {
+    color: red;
+}
+
+/* Seletor de Elementos filhos*/ 
+div > span {
+    color: blue;
+}
+

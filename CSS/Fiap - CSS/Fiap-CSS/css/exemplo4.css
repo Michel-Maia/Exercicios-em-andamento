@@ -1,0 +1,17 @@
+* { font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* Seletor de Elemento */
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: red;
+}

@@ -1,0 +1,30 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Links não visitados */
+a:link {
+    color: green;
+}
+
+/* Link já visitado */
+a:visited {
+    color: orange;
+}
+
+/* Link - no momento que é selecionado */
+a:active {
+    color: red;
+}
+
+/* Link quando o mouse estiver sobre ele */
+
+a:hover {
+    background-color: yellow;
+} 
+
+/* Quando um campo está em foco */
+input:focus {
+    background-color: aqua;
+}
+

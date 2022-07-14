@@ -1,0 +1,13 @@
+div {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+/* o parágrafo irá herdar a estilização da div*/
+
+#idParagr {
+    color: inherit;
+}

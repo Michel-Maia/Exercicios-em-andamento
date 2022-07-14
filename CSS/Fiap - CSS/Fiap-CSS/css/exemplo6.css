@@ -1,0 +1,15 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Seletor de Elemento Adjacente */
+
+h5+h4 { 
+    color: orange;
+}
+
+/* Seletor de Primeiro Filho*/
+
+h4:first-child { color: aqua; } 
+
+
