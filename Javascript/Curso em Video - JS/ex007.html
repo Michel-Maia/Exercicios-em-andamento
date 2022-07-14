@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex007 </title>
+    <style>
+        div#area {
+            background: rgba(42, 139, 42);
+            font: normal 20pt Arial;
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Aula 09 Introdução ao DOM</h1>
+<!--
+    Eventos DOM
+
+    eventos é o que pode acontecer com o elemento
+
+    exemplo eventos de mouse
+    mouseenter
+    mousemove
+    click
+    mouseup
+    mouseout
+
+-->    
+
+    <!-- exemplo direto no html
+        <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"> -->
+
+    <div id="area"> 
+        Interaja...
+    </div>
+
+    <script>
+        var Area = window.document.getElementById('area') // não é recomendado usar dessa forma, devido uso de mémoria, criado somente para fins didáticos
+
+// criado uma lista para não poluir o html exemplo linha 36
+        Area.addEventListener('click', clicar)
+        Area.addEventListener('mouseenter', entrar)
+        Area.addEventListener('mouseout', sair)
+
+        function clicar() {
+            // var Area = window.document.getElementById('area')
+            Area.innerText = 'Clicou'
+            Area.style.background = 'red'
+
+        }
+        function entrar() {
+            Area.innerText = 'Entrou'
+            Area.style.background = 'blue'
+        }
+        function sair() {
+            Area.innerText = 'Saiu'
+            Area.style.background = 'orange'
+        }
+
+    </script>
+</body>
+</html>

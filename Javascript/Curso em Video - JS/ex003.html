@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex003 </title>
+</head>
+<body>
+    <h1>Aula JavaScript</h1>
+    <h2>Aula 05 Variáveis e tipos primitivos</h2>
+
+    <script>
+      //  var n1 = window.prompt('Digite um número: ') // string
+      //  var n2 = window.prompt('Digite outro número: ') // string
+      // var total = n1 + n2
+      //   window.alert('A soma dos valores é ' + total)
+        var n1 = Number.parseInt(window.prompt('Digite um número:'))
+        var n2 = Number.parseInt(window.prompt('Digite outro número:'))
+        var total = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${total}`)
+        // (number + number ) para adição
+        // (string + string) para concatenação
+
+        // Number.parseInt(n) - converter números inteiros
+        // Number.parseFloat(n) - converter números reais
+        // Number(n) - posso usar somente Number , o JS decide se é inteiro ou real
+
+        // converter string em número
+        // String(n) - converter para String 
+        // n.toString(n)
+
+/* 
+exemplo usando o terminal com node
+> var nome = 'Michel'
+undefined
+> var idade = 35
+undefined
+> var nota = 9.5
+undefined
+> nome
+'Michel'
+> idade
+35
+> nota
+9.5
+> 'O aluno' + nome + 'com' + idade + 'anos tirou a nota' + nota // usa + para concatenar
+'O alunoMichelcom35anos tirou a nota9.5'
+
+> `O aluno ${nome} com ${idade} anos tirou a nota ${nota}` // usa o ${} template string 
+'O aluno Michel com 35 anos tirou a nota 9.5'
+>
+*/        
+    </script>
+</body>
+</html>

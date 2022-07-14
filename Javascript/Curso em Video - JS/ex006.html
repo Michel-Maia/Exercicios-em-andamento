@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex006 </title>
+</head>
+<body>
+
+<!-- uso do DOM 
+    Document
+    Object 
+    Model
+    
+    árvore DOM começa na raiz
+                                window 
+                /                 |                         \
+    location (url)     document (documento atual)           history (histórico)
+                        html 
+                        /  \
+                    head   body
+                /    |          \
+            meta    title          h1 p div 
+    
+    
+-->
+    
+    <h1>Aula de DOM </h1>
+    <h2>Aula 08 Operadores</h2>
+    <p>Aqui vai o resultado</p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum sit iste quis exercitationem natus beatae illo! Ab obcaecati ipsum commodi, in maxime, minus id adipisci dolore, dolorem vero ducimus explicabo.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ducimus minus laborum, similique rerum distinctio voluptatibus impedit nesciunt ab quam voluptatum iste assumenda odio sit saepe explicabo beatae aut eum?
+    </p>
+    <div>
+        Clique aqui 
+    </div>
+    <div id="msg">
+        Clique aqui teste
+    </div>
+    <!--
+selecionando o DOM
+
+por Marca - Tag Name 
+        getElementByTagName() 
+
+        exemplo
+        var p1 = window.document.getElementsByTagName('p')[0] 
+                                                        |   \
+                dentro do () vai a tag exemplo p paragrafo     dentro do [] vai o número do item 
+-----------------------------------------------
+por ID
+        getElementByID()
+
+---------------------------------------------
+por Nome
+        getElementsByName()
+---------------------------------------------
+por Classe
+        getElementsByClassName()
+---------------------------------------------
+por Seletor
+    querySelector()
+    querySelectorAll()
+
+    exemplo 
+    var d = window.document.querySelector('div#msg')
+
+    -->
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(p1.innerHTML)
+        p1.style.color = 'blue'
+        var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerHTML = 'Estou aguardando...'
+
+       // window.document.write(window.navigator.appName)
+    </script>
+</body>
+</html>
