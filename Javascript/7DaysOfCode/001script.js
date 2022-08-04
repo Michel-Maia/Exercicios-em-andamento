@@ -5,6 +5,7 @@ console.log( null == undefined );
 console.log( " \t\r\n" == 0 );
 console.log( ' ' == 0 );
 
+
 */ 
 
 let numeroUm = 1
