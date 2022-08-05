@@ -3,10 +3,6 @@
 
 Orientação ao Objeto 
 
-
-MVC  - Model View Controller 
-
-
 Cria a Classe , que ficará com toda a regra do negocio 
 
 Métodos , são ações que serão executadas
@@ -21,4 +17,9 @@ Benefícios: Praticidade, Reutilização e Abstração
 (utilizo o código em vários lugares)
 
 
+
+MVC  - Model View Controller 
+View , interface que o usuário interage
+Controller, define as regras de negócio
+Model , manipula os dados
 
