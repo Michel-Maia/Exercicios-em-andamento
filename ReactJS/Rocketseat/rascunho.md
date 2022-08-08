@@ -18,3 +18,7 @@ backend não é mais responsável por criar a parte visual, backend apenas retor
 as informações são retornadas em jason (estrutura de dados) 
 Aplicação 
 
+(compilers são compiladores de código ex babel)
+(bundlers converte vários arquivos de js em um único arquivo ex webpack )
+
+vite 

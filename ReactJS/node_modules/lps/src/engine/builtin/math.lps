@@ -1,0 +1,166 @@
+/*
+  This file is part of the lps.js project, released open source under
+  the BSD 3-Clause license. For more info, please see https://github.com/mauris/lps.js
+ */
+
+max(X, Y, Z) <-
+  is_variable(Z),
+  Z = max(X, Y).
+max(X, Y, Z) <-
+  not is_variable(Z),
+  Z == max(X, Y).
+
+min(X, Y, Z) <-
+  is_variable(Z),
+  Z = min(X, Y).
+min(X, Y, Z) <-
+  not is_variable(Z),
+  Z == min(X, Y).
+
+abs(X, V) <-
+  is_variable(V),
+  V = abs(X).
+abs(X, V) <-
+  not is_variable(V),
+  V == abs(X).
+
+sin(X, V) <-
+  is_variable(V),
+  V = sin(X).
+sin(X, V) <-
+  not is_variable(V),
+  V == sin(X).
+
+cos(X, V) <-
+  is_variable(V),
+  V = cos(X).
+cos(X, V) <-
+  not is_variable(V),
+  V == cos(X).
+
+tan(X, V) <-
+  is_variable(V),
+  V = tan(X).
+tan(X, V) <-
+  not is_variable(V),
+  V == tan(X).
+
+asin(X, V) <-
+  is_variable(V),
+  V = asin(X).
+asin(X, V) <-
+  not is_variable(V),
+  V == asin(X).
+
+acos(X, V) <-
+  is_variable(V),
+  V = acos(X).
+acos(X, V) <-
+  not is_variable(V),
+  V == acos(X).
+
+atan(X, V) <-
+  is_variable(V),
+  V = atan(X).
+atan(X, V) <-
+  not is_variable(V),
+  V == atan(X).
+
+sqrt(X, V) <-
+  is_variable(V),
+  V = sqrt(X).
+sqrt(X, V) <-
+  not is_variable(V),
+  V == sqrt(X).
+
+pow(X, Y, V) <-
+  is_variable(V),
+  V = pow(X, Y).
+pow(X, Y, V) <-
+  not is_variable(V),
+  V == pow(X, Y).
+
+mod(X, V) <-
+  is_variable(V),
+  V = mod(X).
+mod(X, V) <-
+  not is_variable(V),
+  V == mod(X).
+
+exp(X, V) <-
+  is_variable(V),
+  V = exp(X).
+exp(X, V) <-
+  not is_variable(V),
+  V == exp(X).
+
+log(X, V) <-
+  is_variable(V),
+  V = log(X).
+log(X, V) <-
+  not is_variable(V),
+  V == log(X).
+
+log2(X, V) <-
+  is_variable(V),
+  V = log2(X).
+log2(X, V) <-
+  not is_variable(V),
+  V == log2(X).
+
+floor(X, V) <-
+  is_variable(V),
+  V = floor(X).
+floor(X, V) <-
+  not is_variable(V),
+  V == floor(X).
+
+ceil(X, V) <-
+  is_variable(V),
+  V = ceil(X).
+ceil(X, V) <-
+  not is_variable(V),
+  V == ceil(X).
+
+round(X, V) <-
+  is_variable(V),
+  V = round(X).
+round(X, V) <-
+  not is_variable(V),
+  V == round(X).
+
+random(A) <-
+  is_variable(A),
+  A = random.
+
+randomInt(X, Y, A) <-
+  A = randomInt(X, Y).
+
+pi(V) <-
+  is_variable(V),
+  V = pi.
+
+between(A, A, A).
+
+between(Low, High, Value) <-
+  Low < High,
+  Value >= Low,
+  Value <= High.
+
+succ(N, N1) <-
+  not is_variable(N),
+  N >= 0,
+  not is_variable(N1),
+  N1 == N + 1.
+
+succ(N, N1) <-
+  not is_variable(N),
+  N >= 0,
+  is_variable(N1),
+  N1 = N + 1.
+
+succ(N, N1) <-
+  is_variable(N),
+  not is_variable(N1),
+  N1 > 1,
+  N = N1 - 1.

@@ -1,0 +1,77 @@
+{
+  "generic": {
+    "parameterInvalidType": "Invalid variable type for parameter %s of %s(), must be of type %s and %s was given.",
+    "parameterNullNotAllowed": "Null value not allowed for parameter %s of %s()."
+  },
+  
+  "console": {
+    "colors": {
+      "reset": "\u001B[0m",
+      "underline": "\u001B[4m",
+      "hidden": "\u001B[8m",
+      "fgBlack": "\u001B[30m",
+      "fgRed": "\u001B[31m",
+      "fgGreen": "\u001B[32m",
+      "fgYellow": "\u001B[33m",
+      "fgBlue": "\u001B[34m",
+      "fgMegenta": "\u001B[35m",
+      "fgCyan": "\u001B[36m",
+      "fgWhite": "\u001B[37m"
+    }
+  },
+  
+  "declarationProcessors": {
+    "observe": {
+      "invalidStartTimeValue": "Start time given to observe/3 must be a value.",
+      "invalidEndTimeValue": "End time given to observe/3 must be a value.",
+      "invalidTimeOrdering": "Invalid ordering of time given to observe/3: Start time must come before end time."
+    }
+  },
+  
+  "parser": {
+    "loadFileErrorHeader": "[ \u001B[31m Error loading %s\u001B[0m ]\n%s",
+    "syntaxErrorBrowser": "Syntax Error: Unexpected token '%s' of type %s found at line %s, col %s\n\n%s: %s\n%s\n",
+    "syntaxError": "Syntax Error: Unexpected token '%s' of type %s found at line \u001B[33m%s\u001B[0m, col \u001B[33m%s\u001B[0m\n\n\u001B[4m%s: %s\u001B[0m\n%s\n",
+    "likelyMissingInfo": "It is likely you forgot a '%s' somewhere.\n"
+  },
+  
+  "program": {
+    "selfAugmentation": "At Program.augment(): a program cannot augment itself"
+  },
+  
+  "modules": {
+    "browserModeModuleLoadFailure": "Not possible to use '%s' module when in browser."
+  },
+  
+  "browserContext": {
+    "loadProgramFromFile": "Unable to load program from a file in browser context; File system API unavailable."
+  },
+  
+  "tester": {
+    "testWhileRunning": "Cannot start tests for LPS program after execution has started.",
+    "invalidValueForExpectedNumOf": "Invalid value given for comparison: value must be a number or a special comparison predicate. %s was given.",
+    "unknownComparator": "Unknown special comparison predicate given: %s",
+    "expectCycleQuery" : "Expecting %s '%s' at time %s.",
+    "invalidExpectationType": "Invalid expectation type given: %s",
+    "expectNumOf": "Expecting number of %s at time %s to be %s, program has %s.",
+    "nonExecutedExpectations": "Expectations for cycle(s) %s not executed.",
+    "numNonExecutedExpectationCycles": "Program ended early: %s expectation cycles were not executed.",
+    "expectNumCycles": "Expecting %s cycles to be executed in total, program executed only %s cycles."
+  },
+  
+  "engine": {
+    "maxTimeInvalid": "Max number of cycles to execute must be a positive integer: %s was given as max number of cycles.",
+    "cycleIntervalExceeded": "Previous cycle has exceeded its time limit of %sms. LPS will now terminate.",
+    "definePredicatesWhileRunning": "Cannot define JS predicates after starting LPS execution",
+    "nonPositiveIntegerCycleInterval": "Cycle interval must be a positive integer, %s was given.",
+    "nonPositiveIntegerMaxTime": "Max cycle time must be a positive integer, %s was given.",
+    "loadModuleInvalidType": "Engine.loadModule expects a single parameter that is function taking in the engine and program as its parameters.",
+    "loadModuleWhileRunning": "Cannot load module after starting LPS execution.",
+    "updatingParametersWhileRunning": "Cannot set %s while LPS program is in execution. Parameters can only be set before the LPS program starts.",
+    "fluentUpdaterActionArgumentVariable": "When declaring an initiate, terminate or update, the action must have the last argument as the time variable.",
+    "rejectObservationWarning": "Rejecting observation '%s' from time %s to %s in order to satisfy program constraints",
+    "loadingLoadedEngine": "Cannot load LPS engine: LPS Engine already loaded",
+    "invalidObservationScheduling": "End time for observation scheduling must be greater than start time: Tried scheduling %s from %s to %s.",
+    "invalidStartTimeObservationScheduling": "Start time for observation scheduling given must be greater than the current time: Tried scheduling %s for time %s at current time %s."
+  }
+}
