@@ -1,0 +1,40 @@
+/*seletor universal - todos as tag vai receber a informação */
+
+* {
+    background: black;
+}
+
+
+/* Seletor por tipo */
+
+body {
+    background: red;
+}
+
+/* seletor por classe */
+
+.fundo-preto {
+    background-color: aliceblue;
+}
+
+
+/* seletor por ID*/
+
+#nome {
+    background: blue;
+}
+
+
+/* seletor por atributo  precisa colocar entre [] */
+
+[type="text"] {
+    background: orange;
+}
+
+/* seletor por pseudos - trabalha em cima de uma condição */
+
+:hover {
+    background: wheat;
+}
+
+
