@@ -28,7 +28,8 @@ lang - Define a linguagem do conteúdo do elemento.
 spellcheck - Define se o conteúdo do elemento deve ter sua ortografia verificada. 
 style - Define estilos CSS diretamente no elemento. 
 tabindex - Define a posição do elemento na ordem de tabulação da página. 
-title - Define informações sobre o elemento. translate Define se o conteúdo do elemento pode ser traduzido ou não
+title - Define informações sobre o elemento. 
+translate - Define se o conteúdo do elemento pode ser traduzido ou não
 
  
 
