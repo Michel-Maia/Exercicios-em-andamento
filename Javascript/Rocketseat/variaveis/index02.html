@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula JS - Rocketseat </title>
+</head>
+<body>
+    
+    <h1>Aula de Variáveis </h1>
+
+    <script>
+
+        // var 
+        var clima = "Frio"
+        cima = "Quente" // reatribuindo o valor
+
+        console.log(clima)
+
+
+// aula Scope 
+{
+    let x = 0
+
+    console.log(x)
+}
+
+// aula var
+console.log('> existe x antes do bloco? ', x)
+
+{
+
+    var x = 0
+}
+
+console.log('> existe x depois do bloco? ' , x)
+
+
+// aula let
+
+let y = 2
+
+{
+    let y = 1
+    console.log('> existe y antes? ', y)
+    
+}
+
+console.log('> existe y depois do bloco? ' , y)
+
+// aula const
+
+const z = 3;
+
+{
+    const z = 4
+    console.log('> existe z' , z)
+}
+
+console.log('>  existe z depois do bloco? ' , z)
+
+
+    </script>
+</body>
+</html>

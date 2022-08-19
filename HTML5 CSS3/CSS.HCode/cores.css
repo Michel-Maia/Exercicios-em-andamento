@@ -1,0 +1,106 @@
+
+/*
+
+padrão de cores por nome
+
+
+white, black, red, green e blue. 
+Os navegadores modernos suportam no total 140 cores por nome. 
+
+*/
+
+body {
+    background: black;
+}
+
+
+/*
+
+padrão de cores RGB
+
+
+RGB
+(Red, Green, Blue)
+
+ex 
+    branca - rgb(255,255,255) 
+    preto - rgb(0,0,0) 
+
+    red - rgb(255,0,0)
+    green - rgb(0,255,0)
+    blue - rgb(0,0,255)
+
+ 
+*/
+
+p {
+    background: rgb(255, 255, 255);
+}
+
+/*
+
+padrão de cores Hexadecimal 
+
+    #RRGGBB
+        00 a FF
+    0123456789ABCDEF    
+    
+   ex 
+    #FFFFFF - branco
+    #000000 - preto
+
+    #FF0000 - red
+    #00FF00 - green
+    #0000FF - blue
+
+*/
+
+
+#nome {
+    background: #00FF00;
+}
+
+/*
+
+padrão de cores HSL (h,s,l)
+
+hue (0 a 360), Saturation (0% a 100%), Lightness (0% a 100%) 
+
+	Matiz, Saturação e Brilho 
+
+
+ex
+
+branco - hsl(0, 100%, 100%) 
+preto - hsl(0, 0%, 0%) 
+
+red - hsl(0, 100%, 50%) 
+green - hsl(120, 100%, 50%) 
+blue - hsl(240, 100%, 50%) 
+
+*/  
+
+
+.fundo {
+    background: hsl(0, 100%, 50%);
+}
+
+/*
+transparência
+
+
+        alpha
+        0 a 1
+
+    50% de transparência é 0.5
+            ou
+    Em hexadecimal de 00 a FF 
+
+rgba(RED, GREEN, BLUE, ALPHA)
+
+        #RRGGBBAA
+
+        hsla(H,S,L,A)
+
+        
+*/
