@@ -7,13 +7,18 @@
     <title>Aula HTML HCode</title>
 </head>
 <body>
-    <h1>Aula </h1>
+    <h1>Aula spellcheck</h1>
 
     <p>
-        spellcheck - Define se o conteúdo do elemento deve ter sua ortografia verificada. 
+        spellcheck - Define se o conteúdo do elemento deve ter sua ortografia verificada. esse atributo só verifica a ortografia digitada pelo usuário , para ser utilizada precisa colocar também a tag contenteditable <!--padrão do spellcheck é false (ou seja é o mesmo que não colocar nada)-->
     </p>
 
-    
+    <p spellcheck="true" contenteditable="true" >
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum, sint omnis veniam ea facere cum, nam ab veritatis aspernatur consequuntur libero eaque repellendus, dicta nihil amet labore quia laborum possimus?
+    </p>
 
+    <p spellcheck="false" contenteditable="true">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, assumenda deserunt placeat eum atque sunt incidunt voluptatibus minus facilis perspiciatis voluptatem ratione harum modi esse totam provident consequuntur veritatis voluptas.
+    </p>
 </body>    
 </html>

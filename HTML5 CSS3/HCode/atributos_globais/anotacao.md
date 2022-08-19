@@ -22,7 +22,8 @@ data-* - Usado para armazenar dados em um elemento. No lugar do (*) deve definir
 dir - Define a direção do conteúdo de um elemento. 
 draggable - Define se o elemento pode ser arrastado ou não.
 dropzone - Define o que acontece quando o elemento arrastado é solto neste elemento. 
-hidden - Define o elemento como oculto. id Define uma identificação única para o elemento. 
+hidden - Define o elemento como oculto. 
+id - Define uma identificação única para o elemento. 
 lang - Define a linguagem do conteúdo do elemento. 
 spellcheck - Define se o conteúdo do elemento deve ter sua ortografia verificada. 
 style - Define estilos CSS diretamente no elemento. 
