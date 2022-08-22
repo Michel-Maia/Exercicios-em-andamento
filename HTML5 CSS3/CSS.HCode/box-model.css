@@ -1,0 +1,29 @@
+/*
+modelo de caixa
+
+    - Todos os elementos do HTML podem ser considerados como caixas.
+    No CSS, o termo "modelo de caixa" é usado quando se fala em design e layout.
+
+    O modelo de caixas CSS é essencialmente uma caixa que envolve todos os elementos HTML.
+    Consistem em: margens, bordas, preenchimento e o conteúdo.
+
+
+        MARGEM
+        BORDA
+        PREENCHIMENTO
+        CONTEÚDO
+
+
+exemplo
+LARGURA DO CONTEÚDO
+
+Largura:50
+Altura: 10
+Preenchimento: 2
+Borda: 1
+Margem: 5
+
+
+
+
+*/
