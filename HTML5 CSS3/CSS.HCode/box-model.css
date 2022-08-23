@@ -23,7 +23,42 @@ Preenchimento: 2
 Borda: 1
 Margem: 5
 
+*/
+
+/* Tamanho da caixa por conteúdo 
+padrão dos navegadores */ 
+
+* {
+    box-sizing: border-box; /* box-sizing: content-box; não é mais usado  */
+}
 
 
+seletor {
+    width: 50px;
+    height: 10px;
+    padding: 2;
+    border-width: 1px;
+    margin: 5px;
+}
+
+/* 
+
+sempre no sentido horário 
+                            top
+            __________________________________________
+           |                                          |
+   left    |                                          |    right
+           |                                          |
+           |__________________________________________|
+
+                          bottom
 
 */
+
+
+
+
+
+
+
+
