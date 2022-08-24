@@ -1,0 +1,36 @@
+/* busca um elemento dentro do outro ex. dentro do body procura article dentro procura h2 */
+
+body article h2 {
+    color: red;
+}
+
+
+
+/* Seleciona somente o elemento que é filho direto do pai, desconsidera os demais*/
+
+body > ul > li {
+    color: blue;
+}
+
+/* Seleciona somente o elemento do lado direto que é irmão direto na hierarquia */
+
+h3 + p {
+    color: darkgray;
+}
+
+button + button {
+    margin-left: 32px;
+}
+
+
+/* Seleciona todos os elementos irmãos */
+
+h2 ~ p {
+    color: yellow;
+}
+
+/* muitas combinações não é recomendado*/
+
+ul > li [class="red"] {
+    color: darkmagenta;
+}

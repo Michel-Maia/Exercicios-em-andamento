@@ -1,0 +1,19 @@
+h2 {
+    color: blue;
+    font-size: 60px;
+}
+
+p {
+    color: green;
+}
+
+/* Elementos em um estado específico (Pseudo-class selector )*/ 
+p:hover {
+    color: coral;
+}
+
+/* múltiplos elementos com a mesma regra css*/
+
+h2,p {
+    background-color: azure;
+}
