@@ -1,0 +1,48 @@
+ul li {
+    color: red;
+}
+
+/* exemplo pegando apenas o primeiro */ 
+ul li:first-child { 
+    color: blue;
+}
+
+/* exemplo pegando qual elemento quero*/
+article p:nth-of-type(2) {
+    color: orange;
+}
+
+
+/* pega o 3 elemento mas conta todos dentro do aside (conta todos os filhos) */
+aside p:nth-child(3) {
+    background-color: darkslategrey;
+}
+
+/* exemplo nth-child odd e even 
+    even pega os elementos pares |  odd pega os elementos impares */
+ol li:nth-child(odd) {
+    color: gray;
+}
+
+ol li:nth-child(even) {
+    color: black;
+    background: #eee;
+}
+
+/* exemplo hover */
+a:hover {
+    color: red;
+} 
+
+/* exemplo focus */
+input:focus {
+    border-color: green;
+}
+
+input:disabled {
+    background-color: yellow;
+}
+
+input:required {
+    background-color: blue;
+}
