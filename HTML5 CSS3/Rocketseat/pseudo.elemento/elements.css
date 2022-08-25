@@ -1,0 +1,23 @@
+/* para usar precisa ter content mesmo que vazio*/
+
+li::before {
+    content: ">";
+}
+
+li {
+    position: relative;
+}
+
+
+li::after {
+    content: "";
+    width: 10px;
+    height: 1px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+}
+
+p::first-line {
+    font-weight: bold;
+}
