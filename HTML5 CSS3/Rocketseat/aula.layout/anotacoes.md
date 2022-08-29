@@ -56,3 +56,21 @@ A caixa se torna flex, fazendo com que os elementos internos possam receber melh
 - Alinhamento
 - Ordenação 
 - Tamanhos flexíveis 
+
+
+# Terminologia 
+
+    - Flex Container
+        - Flex item
+    
+    - Nesting (ideia de elemento dentro de elemento) 
+
+    - Axis (eixo)
+        - main
+            - start, end
+        - cross
+            - start, end
+
+    - Flex sizing (item ser flexível)
+        - flexível
+        - altera width/ height dos itens para preenchimento dos espaços do flex container 
