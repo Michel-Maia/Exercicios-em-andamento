@@ -5,14 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula HTML HCode</title>
+    <noscript>
+        <style>
+            body {
+                background-color: red;
+                color: #fff;
+            }
+        </style>
+    </noscript>
 </head>
 <body>
 
     <h1>Aula tag - noscript </h1>
 
     <p>
-        Tag usada para definir 
+        Tag define um conteúdo alternativo para usuáriso que desativaram scripts no navegador. <br>
+        O conteúdo dentro da tag só será exibido se os scripts não forem suportados. <br>
+        Não tem nenhum estilo CSS padrão.
     </p>
     
+
+    <noscript>
+        <p>
+            Javascript está desabilitado
+        </p>
+    </noscript>
+
+
+    <script>
+        alert('Hello world!')
+    </script>
 </body>
 </html>

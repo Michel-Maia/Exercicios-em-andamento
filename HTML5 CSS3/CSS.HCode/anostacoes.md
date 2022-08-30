@@ -2,7 +2,7 @@
 
 Sintaxe 
 
-------
+
 header, section, footer {
                             background: black; 
 }
@@ -30,3 +30,11 @@ valor da declaração
 
   fim da declaração
   ;
+
+
+## Dicas CSS
+
+Atenção no nome 
+arquivos duplicados
+.class
+#id 

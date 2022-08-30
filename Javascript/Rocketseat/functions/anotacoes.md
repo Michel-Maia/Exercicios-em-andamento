@@ -3,7 +3,7 @@
 
 Função é um liquidificador 
 
-````javascript
+````js
 
 function fazerSuco(fruta1, fruta2) {
     return fruta1 + fruta2
