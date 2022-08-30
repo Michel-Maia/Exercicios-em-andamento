@@ -38,3 +38,15 @@ Atenção no nome
 arquivos duplicados
 .class
 #id 
+atenção no grau de especificidade 
+
+
+* quebra de especificidade 
+        exemplo: 
+
+````css        
+
+.bloco {
+    background-color: red!important;
+} 
+```` 
