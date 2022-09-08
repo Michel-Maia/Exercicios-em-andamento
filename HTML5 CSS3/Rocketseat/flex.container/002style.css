@@ -1,0 +1,11 @@
+.box {
+    display: flex;
+    border: 1px dashed red;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box div {
+    border: 1px solid;
+    width: 80px;
+}

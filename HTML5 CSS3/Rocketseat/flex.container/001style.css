@@ -1,0 +1,29 @@
+
+#linha {
+    display: flex;
+    flex-direction: row; /* linha (padrão)*/
+    background-color: blue;
+}
+
+
+#linhareversa {
+    display: flex;
+    flex-direction: row-reverse; /* linha (lado direito ordem reversa)*/
+    background-color: blueviolet;
+}
+
+
+#coluna {
+    display: flex;
+    flex-direction: column; /* coluna */
+    background-color: darkgreen;
+}
+
+
+
+#colunareversa {
+    display: flex;
+    flex-direction: column-reverse; /* coluna reversa */
+    background-color: yellow;
+}
+

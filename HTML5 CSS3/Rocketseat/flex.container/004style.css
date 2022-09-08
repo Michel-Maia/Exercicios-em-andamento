@@ -1,0 +1,32 @@
+.box {
+    display: flex;
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+}
+
+#start {
+    justify-content: flex-start; /* inicio do eixo */
+}
+
+#end {
+    justify-content: flex-end; /* final */
+}
+
+#center {
+    justify-content: center;   /* centro */ 
+}
+
+#around {
+    justify-content: space-around; /* ao redor */
+}
+
+#between {
+    justify-content: space-between; /* entre */
+}
+
+#evenly {
+    justify-content: space-evenly; /* constante*/
+}

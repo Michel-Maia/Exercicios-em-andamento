@@ -1,0 +1,30 @@
+.box {
+    display: flex;
+
+    border: 1px dashed red;
+    
+}
+
+.box div {
+    border: 1px solid;
+}
+
+#gap1 {
+    gap: 2px;
+}
+
+#gap2 {
+    gap: 2pt;
+}
+
+#gap3 {
+    gap: 2%;
+}
+
+#gap4 {
+    gap: 2em;
+}
+
+#gap5 {
+    gap: 2rem;
+}

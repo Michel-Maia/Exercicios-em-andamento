@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    border: 1px dashed red;
+    height: 150px;
+}
+
+.box div {
+    border: 1px solid;
+}
+
+#stretch{
+    align-items: stretch; /* elemento se estica (padrão )*/
+}
+
+#start{
+    align-items: flex-start; /* elementos todos no começo do eixo cruzado*/
+}
+
+#end{
+    align-items: flex-end; /* elementos todos no final do eixo cruzado*/
+}
+
+#center{
+    align-items: center; /* centro do eixo cruzado*/
+}

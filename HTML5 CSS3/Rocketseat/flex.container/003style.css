@@ -1,0 +1,12 @@
+.box {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+    
+    width: 80px;
+   
+}
