@@ -10,9 +10,51 @@
 
     <h1>Aula tag - iframe </h1>
 
+      <!--
+    Estilo CSS padrão  
+ 
+        iframe {
+        ouline: none;        
+    }  
+
+        iframe[seamless] {
+            display: block;
+        }
+-->
+
     <p>
-        Tag usada para definir 
+        Tag usada para definir um quadro embutido. <br>
+        O quadro embutido é usado para incorporar outro documento no documento HTML atual. 
     </p>
+
+    
+    <h2>Atributos</h2>
+
+        <h3>height</h3>
+            <p> - Define a altura do quadro  <br>
+                - número
+            </p>
+        <h3>width</h3> 
+            <p> - define a largura do quadro  - texto </p>
+        <h3>name </h3> 
+            <p>- define o nome do quadro    <br>
+              - URL
+            </p>
+        <h3>sandbox</h3> 
+            <p> - ativa comteúdos restritos por padrão  <br>
+                 - allow-forms, allow-pointer-lock, allow-popups, allow-same-origin, allow-scripts, allow-top-navigation
+            </p>
+        <h3>src </h3>
+            <p> - define qual a fonte do documento a ser embutido  <br> 
+            - URL 
+            </p>
+        <h3>srcdoc</h3> 
+            <p> - define qual a estrutura do documento a ser embutido <br>
+                - HTML
+            </p>
+
+    
+       <iframe src="teste.iframe.html" width="800" height="600"></iframe>
     
 </body>
 </html>

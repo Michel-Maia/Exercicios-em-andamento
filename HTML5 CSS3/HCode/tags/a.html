@@ -10,9 +10,78 @@
 
     <h1>Aula tag - a </h1>
 
-    <p>
-        Tag usada para definir 
-    </p>
+        <p>
+            Tag usada para criar hyperlink e vincular uma página HTML com outra. <br> 
+            O atributo mais usado é o href. <br>
+            Por padrão o conteúdo da tag é mostrado sublinhado.         
+        </p>
     
+        <a href="https://www.youtube.com/">Youtube</a>
+    
+      <!--
+    Estilo CSS padrão  
+        a:link {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        a:visited {
+            color:#551A8B;
+        }
+
+        a:link:active {
+            color: red;
+        }
+     
+-->
+
+<h2>Atributos</h2>
+
+    <h3>download</h3> 
+        <p> Usado para forçar o download do destino do link <br>
+        - Se for definido um texto no valor o mesmo será usado como nome do arquivo que será baixado no download.
+        </p>
+
+    <h3>href</h3>
+        <p> Define qual endereço do link de destino <br>
+        - URL
+        </p> 
+
+    <h3>hreflag</h3> 
+        <p> Define qual a linguaguem do link de destino <br>
+        - Código de linguagem
+        </p>
+
+    <h3>media</h3> 
+        <p>Define qual a mídia ou dispositivo do link de destino <br>
+        - Media Query
+        </p>
+
+    <h3>ping</h3> 
+        <p>Endereço de rastreio para monitorar os cliques no link de destino. <br>
+            - URL
+        </p>
+
+    <h3>referrerpolicy</h3>
+        <p>Define qual referenciador enviar <br>
+            - no-referrer, no-referrer-when-downgrade, origin, origin-when-cross-origin, unsafe-url
+        </p>
+
+    <h3>rel </h3> 
+        <p>Define qual a relação do documento atual e o de destino <br>
+            - alternate, author, bookmark, external, help, license, next, nofollow, norerrer, noopener, prev, search, tag
+        </p>
+
+    <h3>target</h3> 
+        <p> Define onde o link deverá ser aberto <br>
+            _blank, _parent, _self, _top, Nome de um frame
+        </p>
+
+    <h3>type</h3>
+        <p> Define o tipo de mídia do link de destino
+            - Tipo de mídia (MIME type)
+        </p>  
+
 </body>
 </html>
