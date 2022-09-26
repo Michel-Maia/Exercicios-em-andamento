@@ -8,20 +8,51 @@
 </head>
 <body>
 
-    <h1>Aula tag - figure </h1>
+    <h1>Aula tag - audio </h1>
 
-    <p></p>
-    
+        <p>Tag usada para definir um som, música ou transmissões de áudio <br>
+            Atualmente suporta os formatos: mp3, WAV e OGG. <br>
+            Qualquer texto no conteúdo da tag será exibido em navegadores que não suportam a tag audio
+        </p>
+        
+        <audio src="/musics/normal-world.mpeg" controls></audio>
+
 <!--
     Estilo CSS padrão  
- 
+        nenhum
    
 -->
 
     <h2>Atributos</h2>
 
-        <h3></h3>
-            <p></p>
+        <h3>autoplay</h3>
+            <p>Começa a reproduzir assim que os dados do áudio estiverem carregados. <br>
+                - autoplay
+            </p>
 
+        <h3>controls</h3>
+            <p>Habilita os controles de reprodução do áudio. <br>
+            - controls 
+            </p>
+
+        <h3>loop</h3>
+            <p>Define se o áudio deve começar a reproduzir novamente após terminar
+                - loop
+            </p>   
+        
+        <h3>muted</h3>
+            <p>Define o volume do áudio como mutado <br>
+            - muted
+            </p>
+
+        <h3>preload</h3>
+            <p>Define como o áudio deve ser carregado quando a página é carregada. <br>
+            - auto, metadata, none
+            </p>
+
+        <h3>src</h3>
+            <p>Define qual a fonte/link do áudio <br>
+            - URL
+            </p>                      
 </body>
 </html>
