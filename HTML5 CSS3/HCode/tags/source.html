@@ -8,20 +8,50 @@
 </head>
 <body>
 
-    <h1>Aula tag - figure </h1>
+    <h1>Aula tag - source </h1>
 
-    <p></p>
+        <p>Tag usada para definir uma fonte de mídia. <br>
+        Usada junto com as tags audio, video e picture.
+        </p>
+
+        <audio controls>
+            <source src="/musics/normal-world.mpeg" type="audio/mpeg">
+        </audio>
+
+        <picture>
+            <source src="/images/logo-hcode.svg" media="(min-width:512px)">
+            
+        </picture>
     
 <!--
     Estilo CSS padrão  
- 
-   
+    nenhum
 -->
 
     <h2>Atributos</h2>
 
-        <h3></h3>
-            <p></p>
+        <h3>src</h3>
+            <p>Define a fonte externa do source <br>
+                - URL
+            </p>
 
+        <h3>srcset</h3>
+            <p>Define uma fonte em situações diferentes <br>
+            - URL
+            </p>
+
+        <h3>media</h3>
+            <p>Define em que tipo de mídia essa fonte de dados se aplica <br>
+            - Consulta de mídia
+            </p>
+
+        <h3>sizes</h3>
+            <p>Define tamanhos diferentes <br>
+            </p>
+
+        <h3>type</h3>
+            <p>Define o tipo de mídia do arquivo <br>
+            - tipo de mídia
+            </p>
 </body>
 </html>
