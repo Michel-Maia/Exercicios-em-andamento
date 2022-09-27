@@ -5,23 +5,167 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula HTML HCode</title>
+    <link rel="stylesheet" href="table.css">
 </head>
 <body>
 
-    <h1>Aula tag - figure </h1>
+    <h1>Aula table </h1>
 
-    <p></p>
-    
+        <p>Tag usada para definir uma tabela. <br> Todos os atributos além dos globais fora removidos do HTML5. <br> Apenas a tag table não cria toda a tabela. <br> É necessário usar as tags tr e td para criar as linhas e células respectivamente. <br> Uma tabela mais complexa ainda pode conter as tags caption, col, colgroup, thhead, tfoot e tbody. <br> Historicamente as tabelas eram usadas para criar o layout da página porém esse seria um mal uso desta tag <br> Recebe os atributos globais </p>
+
+        <h2>Tag tr</h2>
+            <p>Tag usada para definir linhas dentro de uma tabela <br> Está tag deve conter um ou mais tags th e/ou td. <br> Todos os atributos além dos globais foram removidos no HTML 5.  
+            </p>
+
+        <h2>Tag td</h2>
+            <p>Tag usada para criar uma célula da tabela. <br> A tag deve ser usada dentro de uma tag tr.</p> <br> <br>
+            <h3>Atributos</h3> <br>
+                <p>
+                    <b>colspan</b> Define o número de colunas que esta célula deve ocupar. - Número <br>
+                    <b>headers</b> Define uma mais células de cabeçalho relacionadas. - ID da célula <br>
+                    <b>rowspan</b> Define o número de linhas que esta célula deve ocupar. - URL <br>
+                </p>
+
+        <h2>Tag thead</h2>
+            <p>Tag usada para agrupar o conteúdo do cabeçalho da tabela. <br> A tag é usada em conjunto com as tags tbody e tfoot. <br> Os navegadores podem usar esta definição para ativar a rolagem do corpo da tabela. <br> A tag deve ser filha de uma tag table. <br> A tag pode vir após uma tag caption e/ou colgroup. <br> A tag deve vir antes das tags tbody e tfoot. <br> A tag deve ter um ou mais tags tr dentro dela. <br> A tag não afeta visualmente a tabela, mas pode ser estilizada com  CSS. 
+            </p>
+
+        <h2>Tag tbody</h2>
+            <p>Tag usada para agrupar o conteúdo do corpo da tabela. <br> A tag é usada em conjunto com as tags thead e tfoot. <br> Os navegadores podem usar esta definição para ativar a rolagem do corpo da tabela. <br> A tag deve ser filha de uma tag table. <br> A tag deve vir depois da tag thead e antes da tag tfoot. <br> A tag não afeta visualmente a tabela, mas pode ser estilizada com CSS. </p>
+
+        <h2>Tag tfoot</h2>
+            <p>Tag usada para agrupar o conteúdo do rodapé da tabela. <br> A tag é usada em conjunto com as tags tbody e tfoot. <br> Os navegadores podem usar esta definição para ativar a rolagem do corpo da tabela. <br> A tag deve ser filha de uma tag table. <br> A tag deve vir depois da tag thead e tbody. <br> A tag não afeta visualmente a tabela, mas pode ser estilizada com CSS. </p>   
+            
+        <h2>Tag th</h2>
+            <p>Tag usada para definir uma célula de cabeçalho.  <br> A tag deve ser usada dentro de uma tag tr. <br> <br>
+                <b>abbr</b> Define uma abreviação do conteúdo da célula do cabeçalho. - Texto. <br> 
+                <b>colspan</b> Define o número de colunas que esta célula deve ocupar. - Número <br>
+                <b>headers</b> Define uma mais células de cabeçalho relacionadas <br> - ID da célula 
+                <b>rowspan</b> Define o número de linhas que esta célula deve ocupar. - URL <br>
+                <b>scope</b> Define se a célula é um cabeçalho de linha, coluna, grupo de linha ou grupo de coluna. - col, colgroup, row, rowgroup
+                <b>sorted</b> Define a direção da ordem da coluna. - reversed, number, reversed number, number reversed
+
+            </p>
 <!--
     Estilo CSS padrão  
- 
+        table {
+            display: table;
+            border-collapse: separate;
+            border-spacing: 2px;
+            border-color: gray;
+        }
+
+        tr {
+            display: table-row;
+            vertical-align: inherit;
+            border-color: inherit;
+        }
    
+        td {
+            display: table-cell;
+            vertical-align: inherit;
+        }
+
+        thead {
+            display: table-header-group;
+            vertical-align: middle;
+            border-color: inherit; 
+        }
+
+          tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            border-color: inherit; 
+        }
+
+          tfooter {
+            display: table-footer-group;
+            vertical-align: middle;
+            border-color: inherit; 
+        }
+
+        th {
+            display: table-cell;
+            vertical-align: inherit;
+            font-weight: bold;
+            text-align: center;
+        }
 -->
 
-    <h2>Atributos</h2>
+    <table>
+        <caption>Olá, eu sou uma caption</caption>
 
-        <h3></h3>
-            <p></p>
+        <colgroup>
+            <col span="1" style="background-color: green;">
+            <col style="background-color: rgb(62, 83, 207);">
+        </colgroup>
+        <thead>
+            <tr>
+                <th sorted="reversed">Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!-- linha -->
+                <td>A1</td> <!-- célula -->
+                <td>B1</td>
+                <td>C1</td>
+            </tr>
+            <tr>
+                <td>A2</td>
+                <td rowspan="2">B2</td>
+                <td>C2</td>
+            </tr>
+            <tr>
+                <td colspan="2">A3</td>
+                <td>B3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Footer 1</td>
+                <td>Footer 2</td>
+                <td>Footer 3</td>
+            </tr>
+        </tfoot>
+    </table>      
+
+        <h2>Tag colgroup</h2>
+            <p>Tag usada para definir propriedades em todas as células que formam uma coluna. <br> Esta tag deve ser usada dentro de uma tag colgroup</p> 
+            <p>
+                <b>span</b> Define o número de colunas que esse grupo deve abranger. - Número <br>
+            </p>
+
+        <h2>Tag col</h2>
+            <p>Tag usada para definir propriedades em todas as células que formam uma coluna. <br> Esta tag deve ser usada dentro de uma tag colgroup</p> 
+            <p>
+                <b>span</b> Define o número de colunas que esse grupo deve abranger. - Número 
+            </p>
+
+        <h2>Tag caption</h2>
+            <p>Tag usada para definir uma legenda da tabela. <br> A tabela deve ser inserida imediatamente após a abertura da tag table. <br> O atributo align foi removido no HTML5. </p>
+<!--
+
+    colgroup {
+        display: table-column-group;
+    }
+
+    col {
+        display: table-column;
+    }
+
+    caption {
+        display: table-caption;
+        text-align: center;
+    }
+
+-->
 
 </body>
 </html>
