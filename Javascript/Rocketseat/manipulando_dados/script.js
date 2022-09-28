@@ -63,5 +63,7 @@ console.log(myArray3)
 // Contar elementos de um array 
 console.log(["k", "l", "m", "n"].length)
 
+// Transformar uma cadeia de caracteres em elementos de um array 
 
-
+let word2 = "manipulação"
+console.log(Array.from(word2))
