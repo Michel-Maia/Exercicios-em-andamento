@@ -61,7 +61,7 @@ let myArray3 = new Array(10) // exemplo array vazio
 console.log(myArray3)
 
 // Contar elementos de um array 
-console.log(["k", "l", "m", "n"])
+console.log(["k", "l", "m", "n"].length)
 
 
 
