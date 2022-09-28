@@ -1,12 +1,18 @@
+# Aula Figma Cursae
+
+![preview](** não esquecer )
+
+
+> Projeto desenvolvido para aprendizado na plataforma da HCode. 
+
+## Desing com Figma - Construindo layout do Spotify
+
+
 ## UX e UI
 
 User Experience e User Interface
 
-* Desing com Figma - Construindo layout do Spotify
-
-
-# 
-    UI esta diretamente relacionada com o sucesso da UX, ótima exp para o usuário 
+*   UI esta diretamente relacionada com o sucesso da UX, ótima exp para o usuário 
     UX design destaca o ponto chave de cada produto 
     UI criação do design
 

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 5vh;
+    padding: 40px;
+    background-color: lightgrey;
+   
+}
+
+h1 {    
+    margin-left: 5vh;
+    text-align: center;   
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+ul {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+    list-style-type: none;    
+}
+
+
+
+#btn-nav {
+    display: flex;
+    padding: .8rem;
+ 
+    color: whitesmoke;
+    background-color: rgb(26, 26, 27);
+    font-size: 20px;
+    border-radius: 4px;
+}

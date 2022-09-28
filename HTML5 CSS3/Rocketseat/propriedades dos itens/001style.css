@@ -1,0 +1,75 @@
+.box {
+    display: flex;
+
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+    flex-basis: 15%;
+    /* flex-basis: auto; padrão */
+}
+
+/* enquanto o flex-basis não estiver como auto ele não deixa definir outro tamanho
+.box div:nth-child(1) {
+    width: 250px;
+}
+*/
+
+
+.box-2 {
+    display: flex;
+    border: 2px dashed rgb(17, 255, 0);
+}
+
+.box-2 div {
+    border: 1px solid;
+    flex-basis: auto; 
+}
+
+.box-2 div:nth-child(2) {
+    width: 250px;
+} 
+
+/**/
+
+.box-3 {
+    display: flex;
+    border: 2px dashed rgb(19, 19, 155);
+}
+
+.box-3 div {
+    border: 1px solid;
+    flex-basis: auto; 
+}
+
+.box-3 div:nth-child(3) {
+    flex-grow: 1;
+} 
+
+/**/
+
+.box-4 {
+    display: flex;
+    border: 2px dashed rgb(214, 87, 129);
+    width: 160px;
+}
+
+.box-4 div {
+    border: 1px solid; 
+    flex-basis: 100%; 
+}
+
+.box-4 div:nth-child(2) {
+    flex-shrink: 1;
+} 
+
+/* exemplos shorthand
+
+.box div {
+    border: 1px solid;
+    flex: 1 2 3;             exemplo  1 grow | 2 shrink | 3 basis
+                       
+}
+ 
+*/
