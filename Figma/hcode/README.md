@@ -23,4 +23,13 @@ User Experience e User Interface
     - ícones (feed back visual)
     - cores 
 
-    
+###
+
+Atalhos e dicas 
+
+- para colocar um elemento sobre o outro 
+    Ctrl ´ pra baixo
+    Ctrl [ pra frente 
+    Shift [ pra frente de todos os elementos 
+
+- com a opção de conta gotas nas cores é possível pegar a cor hexadecimal do elemento (se colar um print posso ver a cor dele) 

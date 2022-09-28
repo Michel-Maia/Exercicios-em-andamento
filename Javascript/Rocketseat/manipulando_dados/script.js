@@ -38,9 +38,30 @@ console.log(word1.toLowerCase())
 // Manipulando Strings e Arrays 
 
 // Separe um texto que contem espaços, em um novo array onde cada texto é uma posição do array. Depois disso, transforme o array em um texto e onde eram espaços, coloque _ 
-let phrase = "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+let phrase = "Lorem ipsum dolor sit amet consectetur adipisicing elit"
 let myArray = phrase.split(" ")
 console.log(myArray)
 
 let phraseWithUnderscore = myArray.join(" _ ")
 console.log(phraseWithUnderscore) 
+
+// Verificar se o texto contém a palavra uma palavra especifica 
+
+let phrase1 = "Lorem ipsum dolor sit amet lorem consectetur adipisicing elit" 
+console.log(phrase1.includes("Lorem"))
+
+// Criar Array com construtor 
+let myArray1 = ['a', 'b', 'c', 'd', 'e']
+console.log(myArray1)
+
+let myArray2 = new Array('f', 'g', 'h', 'i', 'j')
+console.log(myArray2)
+
+let myArray3 = new Array(10) // exemplo array vazio 
+console.log(myArray3)
+
+// Contar elementos de um array 
+console.log(["k", "l", "m", "n"])
+
+
+

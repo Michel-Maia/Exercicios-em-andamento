@@ -30,14 +30,20 @@ ul {
     list-style-type: none;    
 }
 
-
-
-#btn-nav {
+ul li:last-child {
     display: flex;
     padding: .8rem;
- 
+    align-items: center;
+}
+
+
+#btn-nav { 
     color: whitesmoke;
     background-color: rgb(26, 26, 27);
     font-size: 20px;
     border-radius: 4px;
+}
+
+main {
+    padding-left: 2vh;
 }
