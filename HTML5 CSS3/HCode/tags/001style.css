@@ -1,6 +1,12 @@
+/* arquivo para referência */
 
 /* Estilo CSS padrão das tags abaixo */
 
 abbr {
     display: inline;
 }
+
+b {
+    font-weight: bold;
+}
+
