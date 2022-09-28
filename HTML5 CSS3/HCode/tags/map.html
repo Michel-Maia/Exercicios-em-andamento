@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula HTML HCode</title>
+</head>
+<body>    
+
+    <h1>Aula tag - map</h1>
+
+
+        <img src="https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGdhbWUlMjByZXRyb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="máquinas de jogo em fliperama" usemap="#mapa-img">
+
+            <map name="mapa-img">
+                <area shape="circle" coords="311,263,30" href="https://github.com/Michel-Maia" alt="" >
+                <area shape="circle" coords="401,263,30" href="www.linkedin.com/in/maia-michel" alt="">
+            </map>   
+
+
+        <p>Tag usada para criar um mapa de imagem clicável. <br> O atributo name é obrigatório para relacionar com a tag img <br> A tag map defini as áreas clicáveis usando várias tags area. <br> <b>name</b> Define um nome para relacionar com o atributo usemap da tag ig. - Nome da tag
+        </p>
+
+    <h2>Atributos</h2>
+
+        <p> Tag usada para definir áreas clicáveis em um mapa de imagem. <br> Esta tag deve ser sempre filha de uma tag map. <br>
+        <b>alt</b> Define um texto alternativo para a imagem. - Texto <br>
+        <b>coords</b> Define as coordenadas da área. - x1, y1, x2, y2 para shape rect | x, y, raio para shape circle | x1, y1, x2, y2,....,xn, yn para shape poly. <br>
+        <b>download</b> Usado para forçar o download do destino do link. - Se for definido um texto no valor, o mesmo será usado como nome do arquivo que será baixado no download. <br>
+        <b>href</b> Define qual o endereço do link de destino. - URL <br> 
+        <b>hreflang</b> Define qual a linguagen do link de destino. - Media Query
+        <b>rel</b> Define qual a relação do documento atual e o de destino. - alternate, author, bookmark, external, help, license, next, nofollow, noreferrer, noopener, prev, search, tag <br>
+        <b>shape</b> Define uma forma para a área. - defaut, rect, circle, poly <br>
+        <b>target</b> Define onde o link deverá ser aberto. _blank, _parent, _self, _top, Nome de um Frame <br>
+        <b>type</b> Define o tipo de mídia do link de destino. - Tipo de mídia (MIME type)
+        </p>
+    
+<!-- 
+    Estilo CSS padrão
+
+    area {
+        display: none; 
+    }
+-->
+       
+</body>
+</html>
