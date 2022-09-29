@@ -17,3 +17,16 @@ console.log(true ? 'olá' : 'mundo')
 let nome = new String('Enzo')
 let idade = new Number(20)
 console.log(nome, idade)
+
+// typeof - saber qual tipo de dado
+console.log(typeof "abacaxi")
+
+// delete 
+const person = {
+    nome1: 'Kiwi',
+    age: 25,
+}
+
+delete person.age
+
+console.log(person)

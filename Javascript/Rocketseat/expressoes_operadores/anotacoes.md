@@ -9,3 +9,7 @@
 - new
     left-hand-side expression
     criar um novo objeto
+
+- Operadores unários (2 mais comuns)
+    typeof
+    delete
