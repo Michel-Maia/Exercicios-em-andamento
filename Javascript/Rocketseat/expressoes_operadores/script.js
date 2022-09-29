@@ -145,3 +145,19 @@ console.log(x)
 // exponetiation 
 x **= 2
 console.log(x) 
+
+// operadores lógicos 
+
+let pao = true 
+let cafe = true 
+
+// e AND && 
+// os dois valores tem que ser verdadeiro pra ter resposta verdeira se um for falso a resposta será false
+console.log(pao && cafe)
+
+// ou OR ||
+// qualquer resposta que for verdadeira será verdadeira , só dará false se os dois forem falsos
+console.log(pao || cafe)
+
+// negação NOT !
+console.log(!cafe)

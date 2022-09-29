@@ -31,3 +31,6 @@
     Irá comparar valores e retornar um boolean como resposta à comparação 
 
 - Operadores de Atribuição (Assignment)
+
+- Operadores lógicos (logical operators)
+    Dois valores booleanos, quando verificados, resultará em verdadeiro ou falso 
