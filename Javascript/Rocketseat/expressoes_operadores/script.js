@@ -203,3 +203,5 @@ console.log("false" ? 'verdadeiro' : 'falso')
 console.log(-1 ? 'verdadeiro' : 'falso')
 console.log(Infinity ? 'verdadeiro' : 'falso')
 console.log(-Infinity ? 'verdadeiro' : 'falso')
+
+// 

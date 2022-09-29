@@ -3,6 +3,10 @@
 ![preview](** não esquecer )
 
 
+https://www.figma.com/file/i40SWQiEDqfKhzrmMEBf1y/AulaPratica02?node-id=0%3A1 *** em andamento 
+
+
+
 > Projeto desenvolvido para aprendizado na plataforma da HCode. 
 
 ## Desing com Figma - Construindo layout do Spotify
