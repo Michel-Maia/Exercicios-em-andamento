@@ -29,3 +29,5 @@
 
 - Operadores de comparação 
     Irá comparar valores e retornar um boolean como resposta à comparação 
+
+- Operadores de Atribuição (Assignment)
