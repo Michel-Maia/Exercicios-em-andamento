@@ -161,3 +161,45 @@ console.log(pao || cafe)
 
 // negação NOT !
 console.log(!cafe)
+
+// operador condicional (ternário) 
+// = recebe
+// ? então 
+// : senão 
+
+// ex café da manhã
+let pao1 = true
+let cafe1 = true 
+
+const niceBreakfast = pao && cafe ? 'Café top' : 'Café triste' 
+
+console.log(niceBreakfast)
+
+// ex maior de idade 
+
+let age = 16 
+const canDrive = age >=18 ? 'can drive' : 'cannot drive'
+
+console.log(canDrive)
+
+// Falsy 
+
+console.log(false ? 'verdadeiro' : 'falso')
+console.log(0 ? 'verdadeiro' : 'falso')
+console.log(-0 ? 'verdadeiro' : 'falso')
+console.log("" ? 'verdadeiro' : 'falso')
+console.log(null ? 'verdadeiro' : 'falso')
+console.log(undefined ? 'verdadeiro' : 'falso')
+console.log(NaN ? 'verdadeiro' : 'falso')
+
+// Truthy
+console.log(true ? 'verdadeiro' : 'falso')
+console.log({} ? 'verdadeiro' : 'falso')
+console.log([] ? 'verdadeiro' : 'falso')
+console.log(1 ? 'verdadeiro' : 'falso')
+console.log(3.77 ? 'verdadeiro' : 'falso')
+console.log("0" ? 'verdadeiro' : 'falso')
+console.log("false" ? 'verdadeiro' : 'falso')
+console.log(-1 ? 'verdadeiro' : 'falso')
+console.log(Infinity ? 'verdadeiro' : 'falso')
+console.log(-Infinity ? 'verdadeiro' : 'falso')

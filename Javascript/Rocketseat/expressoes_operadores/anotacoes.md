@@ -34,3 +34,51 @@
 
 - Operadores lógicos (logical operators)
     Dois valores booleanos, quando verificados, resultará em verdadeiro ou falso 
+
+- Operador Condicional (ternário)
+    Dependendo da condição, nós receberemos valores diferentes 
+
+- Operador de String (string operator)
+    comparison (comparação)
+    concatenation (concatenação - retorna a união de duas Strings)
+
+- Type conversion (typecasting) vs Type coersion 
+    Conversion - eu tranformo um dado
+    coersion - JS transformando o dado (por debaixo dos panos)
+
+    FALSY - quando um valor é considerado false em contextos onde um booleano é obrigatório ( condicionais e loops)
+
+    false
+    0
+    -0
+    ""
+    null
+    undefined
+    NaN 
+
+    TRUTHY - Quando um valor é considerado true em contextos onde um booleano é obrigatório (condicionais e loops)
+
+    true
+    {}
+    []
+    1
+    3.77
+    "0"
+    "false"
+    -1
+    Infinity
+    -Infinity
+
+- Operator precedence 
+    Precedência de operadores
+
+* grouping ()
+* negação e incremento ! ++ -- 
+* multiplicação e divisão * /
+* adição e subtração + -
+* relacional < <= > >=
+* igualdade == != === !==
+* AND && 
+* OR || 
+* condicional ? : 
+* assignment (atribuição) = += -= *=
