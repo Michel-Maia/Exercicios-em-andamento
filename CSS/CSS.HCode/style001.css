@@ -77,3 +77,34 @@ p {
     padding: 15px 40px;
     background-color: rgb(149, 178, 219);
 }
+
+
+#posicaoF {
+    position: sticky;
+   
+    top: 0;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#btnF {
+    
+    padding: 15px 40px;
+    background-color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
