@@ -53,4 +53,50 @@ dfn {
 }
 
 
+em {
+    font-style: italic;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+i {
+    font-style: italic;
+}
+
+kbd {
+    font-family: monospace;
+}
+
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+rt {
+    line-height: normal;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
 
