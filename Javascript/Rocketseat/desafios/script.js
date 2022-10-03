@@ -36,3 +36,36 @@ let notaFinal;
     }
 
     console.log(notaFinal);
+
+
+
+/*
+    Fluxo de caixa familiar 
+
+2- Crie um objeto que possuirá 2 propriedades. ambas do tipo array:
+        * receitas: []
+        * despesas: []
+    Agora, crie uma função que irá calcular o total de receitas e despesas e irá mostrar uma mensagem se a família está com saldo positivo ou negativo, seguido do valor do saldo
+
+*/
+
+/* Celsius em fahrenheit
+
+3 - Crie uma função que receba uma string em celsius ou fahrenheit e faça a transformação de uma unidade para outra
+
+C = (F - 32) * 5/9
+
+F = C * 9/5 + 32 
+    
+
+*/
+
+/* Buscando e contando dados em Arrays 
+
+4 - Baseado no array de lIvros por categorias abaixo, faça os seguintes desafios
+    - Contar o número de categorias e o número de livros em cada categoria
+    - Contar o número de autores
+    - Mostrar livros do autor 
+    - Transformar a função acima em uma função que irá receber o nome do autor e devolver os livros desse autor
+
+*/
