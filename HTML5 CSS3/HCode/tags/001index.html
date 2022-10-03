@@ -487,6 +487,20 @@
                     <h4>type</h4> <p>Define o tipo do campo. button, checkbox, color, date, datetime-local, email, file, hidden, imagem, month, number, password, radio, range, reset, search, submit, tel, text, time, url, week</p>
                     <h4>value</h4> <p>Define o valor inicial do campo. -Texto</p>
                     <h4>width</h4> <p>Define a largura do campo. (Se aplica apenas quando o atributo type tem o valor image) Número</p>
+            <h3>tag textarea</h3>
+                <p>Tag usada para definir um campo de entrada de texto com várias linhas.</p>
+                    <h4>autofocus</h4><p>Define o foco neste campo quando a página é carregada. autofocus</p>
+                    <h4>cols</h4><p>Define a largura visível. checked</p>
+                    <h4>dirname</h4><p>Define o nome do campo que será enviado informando a direção do texto escrito. NomeDoInput.dir</p>
+                    <h4>disabled</h4><p>Define o campo como desabilitado. disabled</p>
+                    <h4>form</h4><p>Define qual o formulário que esse campo pertence. ID do formulário</p>
+                    <h4>maxlength</h4><p>Define um comprimento máximo de caracteres. Número</p>
+                    <h4>name</h4><p>Define o nome do campo</p>
+                    <h4>placeholder</h4><p>Define um texto de dica que descreve o valor esperado.</p>
+                    <h4>readonly</h4><p>Define o campo como somente leitura. readonly</p>
+                    <h4>required</h4><p> Define o campo como obrigatório para envio do formulário. required</p>
+                    <h4>rows</h4><p>Define a quantidade linhas visiveis do campo. Número</p>
+                    <h4>wrap</h4><p>Define como texto deve ser quebrado quando enviado. hard, soft</p>
                    
                     <p>exemplo</p>
                     <form action="/send" method="post" target="_blank" enctype="multipart/form-data">
@@ -510,7 +524,8 @@
                         <input type="time">
                         <input type="url">
                         <input type="week">
-                        <input type="range" min="0" max="100" value="50">
+                        <input type="range" min="0" max="100" value="50"> 
+                        <textarea name="descricao" cols="30" rows="10"></textarea>
                     </form>
 
         </div> <!-- tag  form-->
@@ -575,29 +590,57 @@
 
         <div> 
             <hr>
-            <h3>tag </h3>
+            <h3>tag select</h3>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Tag usada para definir um campo de lista suspensa.</li>
+                        <li>Cada opção do campo é definida por uma tag option</li>
                     </ul>
-                            
-                    <p>Exemplo - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <h4>autocus</h4> <p>Define o foco neste campo quando a página é carregada. autofocus</p>
+                <h4>disabled</h4> <p>Define o campo como desabilitado. disabled</p>
+                <h4>form</h4> <p>ID do formulário</p>
+                <h4>multiple</h4> <p>Define se o usuário pode selecionar mais de uma opção. multiple</p>
+                <h4>name</h4> <p> Define o nome do campo. Texto</p>
+                <h4>required</h4> <p>Define o campo como obrigatório para envio do formulário. required</p>
+                <h4>size</h4> <p>Define quantas opções devem ficar visíveis na lista. Número</p>
+                       
+            <h3>tag option </h3>
+                <p>Usada para definir uma opção em uma lista suspensa</p>
+                    <h4>disabled</h4> <p>Define um grupo como desabilitado. disabled</p>
+                    <h4>label</h4> <p>Define o rótulo do grupo. Texto</p>
+                    <h4>selected</h4> <p>Define se a opção deve ser selecionada por padrão. selected</p>
+                    <h4>value</h4> <p>Define o valor que será enviado caso a opção seja selecionada. Texto</p>
+            <h3>tag optgroup</h3>
+                <p>Usada para definir uma opção em uma lista suspensa</p>
+                    <h4>disabled</h4> <p>Define um grupo de opções como desabilitado. disabled</p>
+                    <h4>label</h4> <p>Define o rótulo do grupo. Texto</p>
 
-        </div> <!-- tag  -->
+                    <select>
+                        <optgroup label="Estados">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        </optgroup>
+                    </select>
+
+        </div> <!-- tag  select-->
 
         <div> 
             <hr>
-            <h3>tag </h3>
+            <h3>tag datalist</h3>
                     <ul>
-                        <li></li>
-                        <li></li>
+                        <li>Tag usada para definir uma lista de opções para um input</li>
+                        <li>O ID desta tag é usado no atributo list da tag input para vinculação. </li>
                         <li></li>
                     </ul>
-                            
-                    <p>Exemplo - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    
+                    <input type="text" list="opcoes">
+                    <datalist id="opcoes">
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>Javascript</option>
+                    </datalist>
 
-        </div> <!-- tag  -->
+        </div> <!-- tag datalist -->
 
         <div> 
             <hr>

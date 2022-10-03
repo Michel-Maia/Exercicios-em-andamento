@@ -171,6 +171,9 @@ legend {
     border: none;
 }
 
+datalist {
+    display: none;
+}
 
 
 
