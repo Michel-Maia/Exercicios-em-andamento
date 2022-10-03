@@ -94,3 +94,31 @@ atenção no grau de especificidade
   Este valor tem a mesma função do valor initial porém é aplicado apenas ao navegador Safari.
 
   
+### Layout em grade
+
+  A especificação CSS Grid Layout permite a criação de layout bidimensional,  trabalhando com linhas e colunas, permitindo a criação de inúmeras variações de tipos de layout. 
+
+  Organizando elementos em linhas e colunas, com Grid Layout é possível criar layout semelhante ao que era feito com tabelas porém diferentemente das tabelas, os elementos filhos podem se sobrepor a outros conteúdos, dando aos elementos HTML o poder de ser alocado em qualquer parte do layout.
+
+  Assim como o módulo flexbox, o módulo grid layout também irá trabalhar com um container que funcionará como um wrapper ou embrulho dos elementos internos denominados grid items. 
+
+* Grid Container
+  O elemento que receberá a propriedade display: grid é chamado de grid container e podemos dizer que será o elemento pai de todos os itens de grade. 
+
+* Grid Lines
+  Qualquer linha vertical ou horizontal de uma grade que faz as divisões entre linhas e colunas são linhas de grade ou grid lines.
+
+* Grid Cells
+  Cada espaço de uma grade é chamado de célula de grade ou grid cell, também conhecida como unidade da grade.
+
+* Grid Track 
+  O espaço entre duas linhas adjacentes, horizontais ou verticais, são chamados de Faixa de grade ou em inglês grid track. 
+
+* Grid Area
+  O espaço total gerado por quatro linhas de grade, formando um grupo de células é chamado de área de grade ou grid area. 
+
+* Gutters 
+  Gutters são os espaços entre as linhas ou colunas da grade. Como que calhas podem fazer uma separação entre esses elementos da nossa grade.
+
+
+
