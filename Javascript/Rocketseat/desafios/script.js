@@ -49,6 +49,41 @@ let notaFinal;
 
 */
 
+let caixa = {
+    receitas: [2500, 3100, 250, 148],
+    despesas: [600, 700, 250, 300, 1000, 1890, 800],
+}
+
+function soma(array) {
+    let total = 0;
+
+    for(let value of array) {
+        total += value
+    }
+
+    return total
+}
+
+function calculateFamilia() {
+    const calculateReceitas = soma(caixa.receitas)
+    const calculateDespesas = soma(caixa.despesas)
+
+    const total =  calculateReceitas - calculateDespesas
+
+    const saldoPositivo = total >= 0
+
+    let caixaMensal = "negativo"
+
+    if (saldoPositivo) {
+        caixaMensal = "positivo"
+    }
+}
+
+console.log(`Seu saldo é ${caixaMensal}: ${total.toFixed(2)}`)
+
+calculateFamilia()
+
+
 /* Celsius em fahrenheit
 
 3 - Crie uma função que receba uma string em celsius ou fahrenheit e faça a transformação de uma unidade para outra
@@ -59,6 +94,12 @@ F = C * 9/5 + 32
     
 
 */
+
+
+
+
+
+
 
 /* Buscando e contando dados em Arrays 
 
