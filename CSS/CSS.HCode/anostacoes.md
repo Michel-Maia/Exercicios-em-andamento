@@ -120,5 +120,46 @@ atenção no grau de especificidade
 * Gutters 
   Gutters são os espaços entre as linhas ou colunas da grade. Como que calhas podem fazer uma separação entre esses elementos da nossa grade.
 
+## Combinador Descendente 
+
+- Dois seletores combinados com espaço entre as tags, isso significa que estou selecionando todas as tags 
+
+````css 
+form input {
+    color: blue;
+}
+
+```` 
+
+## Combinador Filho Direto
+
+- Sinal de > seleciona o filho direto 
+
+````css
+form > input {
+    color: blue;
+}
+
+````
+
+## Combinador Irmão Adjacente
+
+- Sinal de + seleciona o seletor que tem irmão adjacente (próximo irmão)
+
+````css
+form + div {
+    color: blue;
+}
+````
+
+## Combinador Irmão geral
+
+- Sinal ~ segundo elemento somente se ele for precedido pelo primeiro e se ambos compartilharem o mesmo pai
+
+````css
+form ~ div {
+    color: blue;
+}
+````
 
 

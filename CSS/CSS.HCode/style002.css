@@ -1,0 +1,15 @@
+#form1 input {
+    border: red 2px solid;
+}
+
+#form2 > input {
+    border: blue 2px solid;
+}
+
+#form3 + input {
+    border: green 2px solid;
+}
+
+#form4 ~ input {
+    border: orange 2px solid;
+}
