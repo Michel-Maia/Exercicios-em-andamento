@@ -61,3 +61,10 @@ header.setAttribute('id', 'header')
 const headerID = document.querySelector('#header')
 
 console.log(headerID)
+
+// Alterando estilo com style
+
+const element9 = document.querySelector('.two')
+
+element9.style.backgroundColor = '#ff4500'
+
