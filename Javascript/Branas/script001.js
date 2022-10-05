@@ -21,13 +21,17 @@ console.log(saldo1)
 // boolean
 estaNegativo1 =saldo1 < 0
 if (estaNegativo1) {
-    console.log("Seu saldo em janeiro está negativo")
+   // console.log("Seu saldo em janeiro está negativo")
     console.log("Juros de janeiro")
-    console.log(saldo1 * 0.1)
+    //console.log(saldo1 * 0.1)
+    juros1 = salario1 * 0.1
+    console.log(juros1)
+    saldo1 = saldo1 + juros1
 } else {
-    console.log("Seu saldo em janeiro está positivo")
-    console.log("Rendimento de janeiro foi de ")
-    console.log(saldo1 * 0.005)
+    //console.log("Seu saldo em janeiro está positivo")
+    console.log("Saldo de janeiro")
+   // console.log(saldo1 * 0.005)
+   rendimentos1 = saldo1 * 0.005
 }
 
 
