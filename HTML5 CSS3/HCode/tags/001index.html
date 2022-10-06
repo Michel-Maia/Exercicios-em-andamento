@@ -729,54 +729,69 @@
                    <canvas id="quadro"></canvas>
 
         </div> <!-- tag canvas -->
+
         <div> 
             <hr>
-            <h3>tag </h3>
+            <h3>tag svg</h3>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Tag usada para definir um contêiner para gráficos vetorias escaláveis</li>
                     </ul>
                             
-                    <p>Exemplo - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <svg width="100" height="100">
+                        <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="blue">
+                    </svg>
 
-        </div> <!-- tag  -->
+        </div> <!-- tag svg -->
+
         <div> 
             <hr>
-            <h3>tag </h3>
+            <h3>tag hgroup</h3>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Tag usada para agrupar as tags h1, h2, h3, h4, h5 e h6</li>
                     </ul>
                             
-                    <p>Exemplo - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <hgroup>
+                        <h1>Aula html 1</h1>
+                        <h2>Aula html 2</h2>
+                        <h3>Aula html 3</h3>
+                        <h4>Aula html 4</h4>
+                        <h5>Aula html 5</h5>
+                        <h6>Aula html 6</h6>
+                    </hgroup>
 
-        </div> <!-- tag  -->
+        </div> <!-- tag  hgroup-->
+
         <div> 
             <hr>
-            <h3>tag </h3>
+            <h3>tag marquee</h3>
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>Tag usada para definir uma área de rolagem de texto</li>
+                        <ul>
+                            <li>behavior - Define como o texto será rolado. scroll, slide, alternate</li>
+                            <li>direction - Define qual será a direção. left, right, up, down</li>
+                            <li>height - Define a altura da área. - número</li>
+                            <li>loop - Define o número de vezes que a rolagem será rolada. - número</li>
+                            <li>scrollamount - Define a quantidade de rolagem em cada intervalo. - número</li>
+                            <li>scrolldelay - Define o intervalo entre cada movimento de rolagem - número</li>
+                            <li>width - Define a largura da área. - número</li>
+                        </ul>
                     </ul>
                             
-                    <p>Exemplo - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 
-        </div> <!-- tag  -->
-        <div> 
-            <hr>
-            <h3>tag </h3>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                            
-                    <p>Exemplo - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <marquee behavior="scroll" direction="up">
+                       <p>Exemplo 1 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
+                    </marquee>
+                    
+                    <marquee behavior="alternate" direction="left">
+                        <p>Exemplo 2 - Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p> 
+                    </marquee>
 
-        </div> <!-- tag  -->
+                    <marquee behavior="alternate" direction="down" width="250" height="250" style="border: blue 1px solid">
+
+                        <marquee behavior="alternate"> Exemplo 3</marquee>
+                    </marquee>
+        </div> <!-- tag marquee -->
+        
 
         <script src="001script.js"></script>
 </body>                

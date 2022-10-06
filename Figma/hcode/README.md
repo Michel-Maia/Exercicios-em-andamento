@@ -37,3 +37,5 @@ Atalhos e dicas
     Shift [ pra frente de todos os elementos 
 
 - com a opção de conta gotas nas cores é possível pegar a cor hexadecimal do elemento (se colar um print posso ver a cor dele) 
+
+### 
