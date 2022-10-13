@@ -3,3 +3,16 @@
     height: 100%;    /* tamanho do pai*/
     background-color: red;
 }
+
+#div2 {
+    width: 100px;
+    max-height: 200px;    /* define o limite máximo da altura*/
+    background-color: #74b9ff;
+}
+
+#div3 {
+    width: 10%;
+    min-height: 250px;    /* define o limite mínimo da altura*/
+    background-color: #dcdde1;
+    height: 30vh;
+}
