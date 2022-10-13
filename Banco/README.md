@@ -1,7 +1,15 @@
+# BANCO DE DADOS 
+
+Desenvolvidos durante as aulas.
 
 
+## 💻 Tecnologias
+
+- SQL
+- PL SQL
 
 
+## Referências
 
 [DevAprender-youtube] - https://www.youtube.com/watch?v=G7bMwefn8RQ&t=3421s
 
