@@ -1,5 +1,6 @@
 /* Aula 5
-COUNT 
+
+COUNT - contagem
 
 */
 
