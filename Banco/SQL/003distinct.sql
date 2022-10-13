@@ -18,7 +18,7 @@ COUNT
 SELECT COUNT(DISTINCT coluna1) 
 FROM TABELA 
 
-/* quantidade de produtos cadastrados na tabela produtos*/
+-- quantidade de produtos cadastrados na tabela produtos
 
 SELECT *
 FROM Production.Product;
@@ -28,7 +28,7 @@ SELECT COUNT(DISTINCT Name)
 FROM Production.Product;  
 
 
-/* quantos tamanhos de produtos tem cadastrado*/
+-- quantos tamanhos de produtos tem cadastrado
 
 SELECT COUNT(Size)
 FROM Production.Product; 
@@ -38,6 +38,17 @@ SELECT COUNT(DISTINCT Size)
 FROM Production.Product; 
 
  
+--Em quantas cidades únicas estão cadastradas nossos clientes 
+
+SELECT COUNT(DISTINCT(city))
+FROM person.Address;
+
+
+
+-- quais são as cidades únicas que temos cadastrados em nosso sistema
+
+SELECT DISTINCT(city)
+FROM person.Address
 
  
 

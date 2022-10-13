@@ -15,3 +15,12 @@ SELECT *
 FROM person.Person
 WHERE FirstName like '%to'; -- ex buscar nome com final to (Roberto)
 
+
+
+-- quantos produtos cadastrados tem a palavra 'road' no nome deles
+
+SELECT COUNT(*)
+FROM Production.Product
+WHERE name like '%road%; 
+
+
