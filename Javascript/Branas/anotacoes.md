@@ -55,12 +55,49 @@ Similar a classe Math da linguagem Java (exemplos)
         * tan -  Tangende do número
 
 ### String
+
+Uma string é composta por uma sequência de 0 ou mais caracteres com as seguintes características:
+- São imutáveis
+- Podem ser declaradas com aspas 'simples' ou "duplas"
+
+````js
+var nome = "AulaJS";
+
+nome.charAt(2); 
+nome.charCodeAt(0); 
+nome.concat("!"); 
+nome.indexOf('a'); 
+nome.replace('Code','!');
+nome.split('e'); 
+
+````
+
+* String API
+
+        * charAt - Retorna o char da posição
+        * charCodeAt - Retorna o código do char da posição
+        * concat - Concatena duas Strigs
+        * indexOf - Retorna o índice da primeira ocorrência do char
+        * lastIndexOf - Retorna o índice da última ocorrência do char
+        * length - Retorna o tamanho da String
+        * match - Retorna uma array resultante da busca com RegExp
+        * replace - Substitui parte da String por outra
+        * search - Retorna a posição da String ou RegEXp
+        * split - Divide a String com base na expressão regular informada
+        * substring - Extrai a parte da String desejada
+        * toLowerCase - Gera uma nova String em letra minúscula
+        * toUpperCase - Gera uma nova String em letra maiúscula
+        * trim - Remove os espaços em branco do início e do fim da String
+        * valueOf - Retorna o valor primitivo da String
+
+
 ### Boolean
 
 
 ## Referências
 
 - [mozilla] https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
 
 Canal youtube do Rodrigo Branas 
 - Série sobre Javascript 
