@@ -4,6 +4,7 @@ GROUP BY
 
 vai dividir o resultado da sua pesquisa em grupos
 
+
 */
 
 SELECT coluna1, funcaoAgregacao(coluna2) 
