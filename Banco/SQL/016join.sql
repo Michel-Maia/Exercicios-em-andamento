@@ -1,4 +1,7 @@
-/* primary key identifica a tabela
+/* primary key identifica a tabela - chave primária
+
+Foreign Key –  como sendo uma chave primária de outra tabela. 
+É com esta chave que ocorrem os relacionamentos entre as tabelas de um banco de dados.
 
 
 existe 3 tipos gerais de JOINS:
