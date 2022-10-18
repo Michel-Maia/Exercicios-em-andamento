@@ -22,3 +22,84 @@ SELECT pp.BusinessEntityId, pt.Name, pt.PhoneNumberTypeId, pp.PhoneNumber
 FROM person.PersonPhone PP 
 INNER JOIN Person.PhoneNumberType PT ON PT.PhoneNumberTypeId = pp.PhoneNumberTypeId
 
+-- LEFT OUTER JOIN
+
+-- LEFT JOIN
+
+ 
+
+-- EXEMPLO DE USO
+
+ 
+
+SELECT * FROM Person.Person;
+
+ 
+
+SELECT *
+
+FROM Person.Person PP
+
+INNER JOIN Sales.PersonCreditCard PC
+
+ON PP.BusinessEntityID = PC.BusinessEntityID
+
+-- INNER JOIN : 19118
+
+ 
+
+SELECT *
+
+FROM Person.Person PP
+
+LEFT JOIN Sales.PersonCreditCard PC
+
+ON PP.BusinessEntityID = PC.BusinessEntityID
+
+-- LEFT JOIN : 19972
+
+ 
+
+SELECT *
+
+FROM Person.Person PP
+
+LEFT JOIN Sales.PersonCreditCard PC
+
+ON PP.BusinessEntityID = PC.BusinessEntityID
+
+WHERE PC.BusinessEntityID IS NULL
+
+--
+
+SELECT [ProductID], [Name], [ProductNumber]
+
+FROM Production.Product
+
+WHERE Name LIKE '%Chain%'
+
+UNION
+
+SELECT [ProductID], [Name], [ProductNumber]
+
+FROM Production.Product
+
+WHERE Name LIKE '%Decal%'
+
+ORDER BY Name asc
+
+-- SELF JOIN
+
+ 
+
+SELECT *
+
+FROM Customers
+
+ 
+
+SELECT A.ContactName, A.Region, B.ContactName, B.Region
+
+FROM Customers A, Customers B
+
+WHERE A.Region = B.Region
