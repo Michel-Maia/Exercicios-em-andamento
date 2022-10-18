@@ -42,6 +42,17 @@ FROM tabela
 SELECT * (retorna todas)
 FROM tabela
 
+### Join 
+
+![preview](./.github/preview.png) 
+
+- Inner Join, retorna apenas os resultados que correspondem(existem) tanto na tabela A como tabela B
+
+- Full Outer Join, retorna um conjunto de todos registros correspondentes da Tabela A e Tabela B quando são iguais. E além disso se não houver valores correspondentes, ele simplismente irá preencher esse lado como "null"
+
+- Left Outer Join, retorna um conjunto de todos os registros da Tabela A, e além disso, os registros correspondentes(quando disponíveis) na Tabela B. Senão houver registros correspondentes ele simplesmente vai preencher com "null"
+
+
 
 ## 💻 Tecnologias
 
