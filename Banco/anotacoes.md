@@ -76,5 +76,3 @@ https://www.hackerrank.com/
 
 [OProgramadorW-youtube] - https://www.youtube.com/watch?v=7OweW8qej_8&list=PLYp15S-UDtuNxSlRnFTdCjCl3LLAawbSH
 
-
-
