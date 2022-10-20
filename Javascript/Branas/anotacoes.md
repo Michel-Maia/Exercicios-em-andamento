@@ -93,6 +93,38 @@ nome.split('e');
 
 ### Boolean
 
+A linguagem Javascript assume o estado de determinados tipos como true ou false, dependendo do caso.
+
+
+ex. valores avaliados como false os demais sempre será true
+
+!!0
+false
+
+!!NaN
+false
+
+!!''
+false
+
+!!null
+false
+
+!!undefined
+false
+
+
+
+
+
+````js
+var isento = true;
+var estudante = false;
+
+isento.toString(); // true
+estudante.valueOf(); // false
+
+````
 
 ## Referências
 
