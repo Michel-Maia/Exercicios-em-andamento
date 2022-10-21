@@ -126,6 +126,15 @@ estudante.valueOf(); // false
 
 ````
 
+### Undefined / null 
+
+O tipo undefined é retornado caso uma propriedade de um determinado objeto seja consultada e não exista
+
+null - é ausência de valor
+
+
+
+
 ## Referências
 
 - [mozilla] https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
