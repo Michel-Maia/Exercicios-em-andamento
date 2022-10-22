@@ -2,6 +2,34 @@
 
 Desenvolvidos durante as aulas.
 
+- SQL (Structured Query Language) Linguagem Estruturada de Consulta
+    - DDL (Data Definition Language) Linguagem de Definição de dados.
+      tabelas , visões e estruturas. 
+      CREATE Cria uma estrutura
+      ALTER Altera
+      DROP Exclui  
+
+    - DML (Data Manipulation Language) Linguagem de Manipulação de dados
+     gerenciamento dos dados
+     INSERT Insere dados
+     UPDATE Atualiza dados
+     DELETE exclui
+
+    - DQL (Data Query Language) Linguagem de consulta de dados
+        consulta
+        SELECT Retorna dados, ordena, agrupamento e funções.
+
+    - DCL (Data Control Language) Linguagem de controle de dados
+      permite ou nega acesso
+      GRANT Habilita acesso a dados e operações
+      REVOKE Revoga acesso a dados e operações
+
+    - DTL (Data Transaction Language) Linguagem de transação de dados
+      START TRANSACTION Inicia a transação
+      COMMIT Concretiza a transação 
+      ROLLBACK Anula a transação
+      
+
 BASE DE DADOS - Qualquer lugar que armazena dados, todo e qualquer lugar ex. excel, bloco de notas
 BANCO DE DADOS - Manipular os dados
 
