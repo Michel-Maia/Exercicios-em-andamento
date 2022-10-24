@@ -28,7 +28,8 @@ Desenvolvidos durante as aulas.
       START TRANSACTION Inicia a transação
       COMMIT Concretiza a transação 
       ROLLBACK Anula a transação
-      
+
+
 
 BASE DE DADOS - Qualquer lugar que armazena dados, todo e qualquer lugar ex. excel, bloco de notas
 BANCO DE DADOS - Manipular os dados
@@ -70,7 +71,64 @@ FROM tabela
 SELECT * (retorna todas)
 FROM tabela
 
-### Join 
+
+- CHAR - tamanho definido ex se colocar CHAR 30 (string) e colocar somente um campo A os demais 29 espaços será preenchido com espaços em branco 
+- VARCHAR - tamanho variavel, ou seja o campo só vai preencher o que for digitado
+- BLOB - permite o armazeenamento de informações binárias, arquivos e imagens.
+- TEXT - permite o armazenamento de grandes informações de string 
+- REDES - Permite o armazenamento de endereço IP,MAC-ADDRESS e outros
+- Monetários - Permite o armazenamento de valores monetários com formatação 
+- Geométricos - Permite o armazenamento de informações de formas geométricas 
+- NULL / Not NULL - Permite ou não valores nulos 
+- Unsigned / Signed - Permite ou não números negativos
+- Auto-increment - Sequências, contadores 
+- Zerofill - Preenche o valor numérico completando com zeros a esquerda
+
+
+* Espaço em disco, Quanto mmenor o tipo de dado, menos espaço ele ocupará
+* Prcessamento e busca, quanto menor o tipo de dado, mais rápido é o processamento
+
+* Maus usos dos tipos de dados
+    - Armazenar dados numéricos em colunas string
+    - Armazenar dados númericos em campos maiores que o necessário
+    - Criar campos de string maiores do que o necessário
+
+* Linguagem de Definição de Dados
+  - Create, cria uma estrutura
+  - Alter, Altera uma estrutura
+  - Drop, Exclui uma estrutura
+
+
+Criar um banco de dados
+- CREATE DATABASE nomebanco
+
+Alterar
+- ALTER DATABASE nomebanco
+
+Excluir
+- DROP DATABASE nomebanco
+
+* Sequência
+- CREATE SEQUENCE Nome
+- ALTER SEQUENCE Nome Propriedade
+- DROP SEQUENCE Nome
+
+
+* Linguagem de Definição de Dados
+  - Create, cria uma estrutura
+
+
+
+
+
+
+
+
+
+
+
+
+### 
 
 ![preview](./.github/preview.png) 
 
@@ -103,4 +161,6 @@ https://www.hackerrank.com/
 [ZorddieBr-youtube] - https://www.youtube.com/watch?v=-LMuBCopYx8&list=PLJZRlbWeQvwI8nRzviH5ckXwYudrw2T56&index=3
 
 [OProgramadorW-youtube] - https://www.youtube.com/watch?v=7OweW8qej_8&list=PLYp15S-UDtuNxSlRnFTdCjCl3LLAawbSH
+
+
 
