@@ -117,8 +117,16 @@ const custoEstimado = job.calcularEstimativa()
 console.log(custoEstimado)
 
 
+// alterando os estilos com javascript 
+const element10 = document.querySelector('.estilo')
+
+element10.style.backgroundColor = "#f9f3D2"
 
 
+// classList
+const element11 = document.querySelector('body')
+
+element11.classList.add('active')
 
 
 
