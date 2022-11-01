@@ -132,6 +132,36 @@ O tipo undefined é retornado caso uma propriedade de um determinado objeto seja
 
 null - é ausência de valor
 
+````js
+var pessoa = {};
+
+pessoa
+{}
+
+pessoa.idade
+// undefined
+
+pessoa.nome = "Lilian"
+'Lilian'
+
+pessoa.idade = 30
+
+pessoa
+{ nome: 'Lilian', idade: 30 }
+
+for(var propriedade in pessoa) {
+        console.log(propriedade);
+}
+
+nome
+idade
+
+// undefined
+
+````
+
+### Object
+
 
 
 
