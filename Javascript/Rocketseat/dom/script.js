@@ -128,6 +128,23 @@ const element11 = document.querySelector('body')
 
 element11.classList.add('active')
 
+// criando elementos 
+
+// createElement 
+const div = document.createElement('div');
+div.innerText = "Olá Mundo"
+
+// append prepend 
+const body = document.querySelector('body');
+
+body.prepend(div)
+
+// insertBefore 
+//const body = document.querySelector('body')
+// const script = body.query.Selector('script')
+// body.insertBefore(div, script)
+
+
 
 
 
