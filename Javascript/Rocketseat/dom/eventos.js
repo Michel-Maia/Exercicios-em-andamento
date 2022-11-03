@@ -9,3 +9,6 @@ input.onkeydown = function() {
 }
 
 
+input.onclick = function(event) {
+    console.log(event)
+}
