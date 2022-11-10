@@ -42,10 +42,14 @@ Independente
 
 
 Puras
-- 
+- Não deverá depender de nenhum dado externo a não ser o que foi passado como argumento
+- Não deverá sofrer nenhuma interferência do mundo externo a ela
+- Se o argumento é o mesmo, o retorno não poderá ser diferente quando a função for chamada novamente
 
 Higher-order
--
+- Funções que poderão retornar outras funções
+- Funções que recebem funções como argumento
 
 Firt
--
+- Podem estar em qualquer lugar, inclusive como parâmetro de outras funções
+- A função poderá ser entendida como uma variável 
