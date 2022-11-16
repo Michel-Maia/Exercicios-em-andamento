@@ -44,3 +44,19 @@
 ---------------------------------------------------------
 | Valor Herdado     |  não                              |
 ---------------------------------------------------------
+
+
+### border
+
+* border-color Esta propriedade CSS define a cor da borda do elemento
+* border-top-color Esta propriedade CSS define a cor da borda do lado superior de um elemento
+* border-right-color Esta propriedade CSS define a cor da borda do lado direito de um elemento
+* border-bottom-color Esta propriedade CSS define a cor da borda do lado inferior de um elemento
+* border-left-color Esta propriedade CSS define a cor da borda do lado esquerdo de um elemento
+
+* border-style Esta propriedade CSS define o estilo da linha da borda 
+* border-top-style Esta propriedade CSS define o estilo da linha da borda superior de um elemento
+* border-right-style Esta propriedade CSS define o estilo da linha da borda direita de um elemento
+* border-bottom-style Esta propriedade CSS define o estilo da linha da borda inferior de um elemento
+* border-left-style Esta propriedade CSS define o estilo da linha da borda esquerda de um elemento
+

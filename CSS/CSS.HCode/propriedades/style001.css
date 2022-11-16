@@ -79,3 +79,15 @@
 
 
 
+.border {
+    width: 100px;
+    /*border-right-style: ridge;
+    border-right-width: 10px;
+    border-right-color: red;
+    */
+
+    border-style: ridge;
+    border-width: 20px;
+    border-color: rgb(36, 7, 139);
+
+}
