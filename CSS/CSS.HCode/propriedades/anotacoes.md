@@ -60,3 +60,26 @@
 * border-bottom-style Esta propriedade CSS define o estilo da linha da borda inferior de um elemento
 * border-left-style Esta propriedade CSS define o estilo da linha da borda esquerda de um elemento
 
+* border-radius Esta propriedade CSS permite arredondar os cantos de um elemento
+* border-top-left-radius Esta propriedade CSS permite arredondar o canto superior esquerdo da borda 
+* border-top-right-radius Esta propriedade CSS permite arredondar o canto superior direito da borda
+* border-bottom-right-radius Esta propriedade CSS permite arredondar o canto inferior direito da borda
+* border-bottom-left-radius Esta propriedade CSS permite arredondar o canto inferior esquerdo da borda
+
+* border-image-source  Esta propriedade CSS define a fonte ou caminho da imagem que deseja usar como borda em torno de um elemento
+
+* border-image-width 
+* border-image-slice
+* border-image-outset
+* border-image-repeat 
+* border-image
+
+* border-spacing
+* border-top
+* border-right
+* border-bottom
+* border-left
+* border
+
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hcode.com.br</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div {
+            width: 64px;
+            height: 64px;
+            border: #CCC 1px solid;
+            margin: 10px;
+            background-image: url("images/google_sprite.png");
+            transition-duration: 0.8s;
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        div.icon-1 {
+            background-position: 0 calc(-69px * 1);
+        }
+        div.icon-2 {
+            background-position: 0 calc(-69px * 2);
+        }
+        div.icon-3 {
+            background-position: 0 calc(-69px * 3);
+        }
+        div.icon-3:hover {
+            background-position: 0 calc(-69px * 20);
+        }
+    </style>
+</head>
+<body>
+
+    <div></div>
+    <div class="icon-1"></div>
+    <div class="icon-2"></div>
+    <div class="icon-3"></div>
+
+</body>
+</html>
