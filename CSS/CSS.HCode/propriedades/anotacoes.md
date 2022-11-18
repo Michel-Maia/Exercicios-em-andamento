@@ -69,17 +69,18 @@
 * border-image-source  Esta propriedade CSS define a fonte ou caminho da imagem que deseja usar como borda em torno de um elemento
 
 * border-image-width 
-* border-image-slice
+* border-image-slice Esta Propriedade CSS define como a imagem da borda será dividida
 * border-image-outset
 * border-image-repeat 
 * border-image
 
-* border-spacing
-* border-top
-* border-right
-* border-bottom
-* border-left
-* border
+* border-spacing Esta Propriedade CSS define a distância que haverá entre as bordas (células) de uma tabela.
+* border-top Esta Propriedade CSS define o estilo da borda superior
+* border-right Esta Propriedade CSS define o estilo da borda direita
+* border-bottom Esta Propriedade CSS define o estilo da borda inferior
+* border-left Esta Propriedade CSS define o estilo da borda esquerda
+* border Esta Propriedade CSS define o estilo da borda
 
+* box-sizing Esta Propriedade CSS define como a largura e altura de um elemento são calculados. Se irão incluir o preenchimento e bordas ou não
 
 
