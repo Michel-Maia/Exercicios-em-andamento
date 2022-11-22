@@ -84,3 +84,7 @@
 * box-sizing Esta Propriedade CSS define como a largura e altura de um elemento são calculados. Se irão incluir o preenchimento e bordas ou não
 
 
+* overflow Esta propriedade define o comportamento do conteúdo quando este estoura os limites definidos de altura e largura da caixa.
+* overflow-x Esta propriedade CSS especifica se o conteudo deve ser cortado, adicionado uma barra de rolagem ou exibir o conteúdo do estouro de um elemento de nível de bloco quando este estoura nas bordas laterais.
+
+
