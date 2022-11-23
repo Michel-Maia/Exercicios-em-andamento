@@ -88,3 +88,10 @@
 * overflow-x Esta propriedade CSS especifica se o conteudo deve ser cortado, adicionado uma barra de rolagem ou exibir o conteúdo do estouro de um elemento de nível de bloco quando este estoura nas bordas laterais.
 
 
+* resize Esta propriedade CSS determina se e como um elemento HTML que possua essa prorpriedade poderá ser redimensionado pelo usuário.
+
+
+* outline-style Esta propriedade CSS define estilo da linha de contorno do elemento.
+* outline-color Esta propriedade CSS define a cor da linha que é desenhada ao redor das bordas do elemento.
+* outline-offset Esta propriedade CSS define o espaço entre a linha de contorno e a borda do elemento.
+
