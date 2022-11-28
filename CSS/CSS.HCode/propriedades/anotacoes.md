@@ -95,3 +95,5 @@
 * outline-color Esta propriedade CSS define a cor da linha que é desenhada ao redor das bordas do elemento.
 * outline-offset Esta propriedade CSS define o espaço entre a linha de contorno e a borda do elemento.
 
+* flex-wrap Esta propriedade CSS define se os itens flexíveis devem quebrar ou não. 
+
