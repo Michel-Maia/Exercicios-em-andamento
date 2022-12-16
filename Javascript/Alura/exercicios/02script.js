@@ -6,3 +6,5 @@ var taxa = 0;
 
 taxa = vendas / (clientesAbordados *  mediaTentativasPorCliente);
 console.log(taxa);
+
+
