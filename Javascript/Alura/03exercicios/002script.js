@@ -9,4 +9,5 @@ console.log(nome, sobrenome);
 console.log(nome + " " + sobrenome);
 
 
+console.log(`meu nome é ${nome} `);
 
