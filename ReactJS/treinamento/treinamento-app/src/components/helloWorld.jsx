@@ -1,13 +1,13 @@
-import React from "react";
+import PropTypes from 'prop-types'
 
-class HelloWorld extends React.Component {
-    render() {
-    return (
-        <h1> Hello World </h1>
-    )
-}};
-
-export default HelloWorld;
+function Greetings ({name, LastName}) {
+    return <h1>Hello {name} {LastName}</h1>
+}
 
 
+Greetings.propTypes = {
+    name: PropTypes.string.isRequired,
+    lastName: PropTypes.string.isRequired
+}
 
+export default Greetings;
