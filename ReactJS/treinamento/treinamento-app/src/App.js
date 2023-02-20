@@ -1,24 +1,19 @@
 
 import React, { Component } from 'react';
+import CheckBox from './components/CheckBox';
 
 class App extends Component {
-  state = {
-    counter: 0
-  };
-
-  handleClick()  {
-    this.setState((prev, _props) => ({
-      counter: prev.counter + 1
-    }))
+  constructor() {
+    super()
   }
+ 
+
 
   render() {
-   // console.log(this.state);
-   const { counter } = this.state;
+  
     return (
       <> 
-        <button onClick={ this.handleClick }>Contador</button>
-        <h1>O contador esta em { counter }</h1>
+        
       </>
     )
   }
