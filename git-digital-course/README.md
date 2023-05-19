@@ -12,5 +12,5 @@ Salvando alterações no git
 Uso do comando restore
 
 * comando git push
-
+* comando git pull
 
