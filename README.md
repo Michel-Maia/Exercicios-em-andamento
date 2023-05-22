@@ -5,9 +5,7 @@
 
 - No momento estou estudando
      - SQL
-     - HTML
-     - CSS
-     - Javascript
+     - Python
 
      
 
